@@ -1,0 +1,35 @@
+
+
+def generate_s3_type(batch_size=10, problem_size: int = 100):
+    import torch
+
+    def generate_problem():
+        max_clusters = 6
+        num_clusters = torch.randint(2, max_clusters + 1, (1,)).item()
+        cluster_sizes = [problem_size // num_clusters] * num_clusters
+        remainder = problem_size % num_clusters
+
+        for i in range(remainder):
+            cluster_sizes[i] += 1
+
+        points = []
+        for size in cluster_sizes:
+            cluster_center = torch.rand(2) * 0.7 + 0.15
+            cluster_radius = torch.rand(1).item() * 0.15 + 0.05
+            cluster_points = cluster_center + (torch.randn(size, 2) * cluster_radius)
+            points.append(cluster_points)
+
+        all_points = torch.cat(points, dim=0)
+
+        if all_points.size(0) > problem_size:
+            perm = torch.randperm(all_points.size(0))
+            all_points = all_points[perm[:problem_size]]
+        elif all_points.size(0) < problem_size:
+            padding_size = problem_size - all_points.size(0)
+            padding_points = torch.rand(padding_size, 2)
+            all_points = torch.cat([all_points, padding_points], dim=0)
+
+        return all_points
+
+    batch = torch.stack([generate_problem() for _ in range(batch_size)])
+    return batch

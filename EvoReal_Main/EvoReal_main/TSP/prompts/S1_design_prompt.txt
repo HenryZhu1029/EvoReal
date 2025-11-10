@@ -1,0 +1,39 @@
+Design Guidance for S1-Type Instance Generators:
+
+To create instances that generalize well across a wide range of problems characterized by repeated and structured sub-patterns, prioritize the compositional diversity of substructures beyond the motifs provided in the sample function. In addition, you should follow the guidance below when compositing new substructures:
+
+1. **Modular Motif Primitives & Parameterization**  
+   - Encapsulate each geometry type (for example, bands, grids/blocks, crosses/T/U, lattices, etc.) into its own function with clear parameters for size, orientation, spacing and jitter.  
+   - Ensure each primitive validates its output shape against `pts_per_cluster` and supports unit-testing.
+
+2. **Controlled Hybrid Composition & Symmetry Variations**  
+   - Combine multiple primitives per instance under explicit node-budget rules, preserving clear boundaries and avoiding excessive overlap.  
+   - Introduce loose bilateral or radial symmetry via shared parameters, then apply small random shifts or scale tweaks for broken-symmetry diversity.
+
+3. **Global Affine Normalization & Jitter**  
+   - After stacking all substructures, perform one global transform (scale to [0,1]2, rotate/reflect, apply bounded jitter) to maintain cohesion and add subtle variation.  
+   - Keep jitter magnitudes consistent across motifs to avoid drowning out core patterns.
+
+4. **Strict Validation & Optional Boundary Frame**  
+   - Verify final point count equals `problem_size` via truncation or padding; reject any design causing Torch slicing or stacking errors.  
+   - Optionally add a single rectangular/elliptical frame primitive, but do not sprinkle ad-hoc edge fillers, apply the same validation rules.
+
+By diversifying local substructure shape, orientation, and placement, and embedding them within a coherent global frame, the generator can better capture the complexity seen in real S1-type TSPLIB instances. Avoid trivial repetition; seek controlled variation and subtle structure richness.
+
+**Important Notice:**  
+- All generated local substructures must be dimensionally valid and compatible with slicing or stacking operations.
+- Generate at least three substructures in the functions.   
+- Avoid clusters too small to cover `pts_per_cluster` or that cause shape mismatches in Torch ops.  
+- Always ensure exactly `problem_size` points after truncation or padding.
+
+ 
+
+ 
+
+
+
+
+
+
+
+

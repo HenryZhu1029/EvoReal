@@ -1,0 +1,6 @@
+Design Guidance for S3-Type Instance Generators:
+
+When generating S3-type (cluster-type) instances, it is essential to capture the full spectrum of structural diversity observed across different cluster-type distributions. Avoid overfitting to prototypes with clear, compact cluster centers. Instead, incorporate instances that range from well-defined dense groupings to those with subtle or diffuse clustering, and even those approaching uniformity. Strive to explore the continuum between localized aggregation and global uniformity. Embrace noise, partial clusters, multiple clusters and varied inter-cluster distances to improve representational breadth. Generators should be flexible enough to mimic both visually distinct clusters and ambiguous arrangements, ensuring broader coverage of naturally occurring patterns. To enhance generalization, prioritize heterogeneity in spatial coherence and avoid repetitive generation of highly clustered-only configurations.
+
+
+

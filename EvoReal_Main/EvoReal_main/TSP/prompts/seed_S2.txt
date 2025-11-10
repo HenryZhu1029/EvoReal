@@ -1,0 +1,63 @@
+def generate_s2_type(batch_size=10, problem_size=100, gen_weights: list = None):
+    import torch
+    import random
+
+    def generate_problem(problem_size=problem_size):
+        num_outliers = torch.randint(0, 1, (1,)).item()
+        num_points = problem_size - num_outliers
+        center = torch.tensor([0.5, 0.5])
+        w, h = 1, 0.4
+
+        # decide fill mode
+        fill_mode = random.choices(['uniform', 'uniform+gaussian'], weights=[0.7, 0.3])[0]
+        base = (torch.rand(num_points, 2) - 0.5) * torch.tensor([w, h])
+        cluster = base.clone()
+
+        if fill_mode == 'uniform+gaussian':
+            # Enhanced blobs near rectangle borders
+            edge_centers = [
+                torch.tensor([-w / 2, 0.0]),
+                torch.tensor([w / 2, 0.0]),
+                torch.tensor([0.0, -h / 2]),
+                torch.tensor([0.0, h / 2])
+            ]
+            num_blobs = torch.randint(1, 4, (1,)).item()
+            chosen_edges = random.sample(edge_centers, num_blobs)
+            for i, edge in enumerate(chosen_edges):
+                blob_center = edge + 0.05 * (torch.rand(1, 2) - 0.5)
+                blob_size = max(1, torch.randint(5, 15, (1,)).item())
+                blob = blob_center + 0.02 * torch.randn(blob_size, 2)
+                if blob_size <= cluster.shape[0]:
+                    cluster[i * blob_size:(i + 1) * blob_size] = blob[:blob_size]
+
+        cluster = center + cluster
+        cluster = torch.clamp(cluster, 0, 1)
+        points = [cluster]
+
+        # add small number of outliers
+        if num_outliers > 0:
+            outliers = torch.rand(num_outliers, 2)
+            points.append(outliers)
+
+        # add edge linear structure (small probability)
+        if random.random() < 0.3:
+            axis = random.choice(["x", "y"])
+            val = random.choice([0.05, 0.95])
+            n = torch.randint(10, 15, (1,)).item()
+            if axis == "x":
+                x = torch.linspace(0.4, 0.6, n)
+                y = torch.full_like(x, val)
+            else:
+                y = torch.linspace(0.4, 0.6, n)
+                x = torch.full_like(y, val)
+
+            line = torch.stack([x, y], dim=1)
+            points.append(line)
+
+        # combine + shuffle + truncate
+        all_points = torch.cat(points, dim=0)
+        all_points = all_points[torch.randperm(all_points.size(0))][:problem_size]
+        return all_points
+
+    batch = torch.stack([generate_problem(problem_size) for _ in range(batch_size)])
+    return batch

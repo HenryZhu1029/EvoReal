@@ -1,0 +1,13 @@
+You are improving the heuristic function `{func_name}` by mutating the current best version.
+Function Description:
+{func_desc}
+Function Signature:
+{func_signature}
+Also please strictly follow the function signature given and avoid modifying the interface or return type.
+Problem Description:
+{problem_desc}
+Current Best Function:
+{elitist_code}
+Reflection and prior knowledge:
+{reflection}
+Please generate a new version of `{func_name}`  according to the reflection with slightly modified logic, structures or parameters in a subtle but meaningful way, keeping core semantics. Output code only and enclose your code with Python code block: ```python ... ```.

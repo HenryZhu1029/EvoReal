@@ -1,0 +1,1 @@
+Download the checkpoints from its [official repository](https://github.com/yd-kwon/POMO/tree/master/NEW_py_ver) and place them in the corresponding directories. For example, place `checkpoint-30500.pt` for TSP at `POMO-EvoReal/CVRP/POMO_CVRP_p1/POMO/result/saved_CVRP100_model`.

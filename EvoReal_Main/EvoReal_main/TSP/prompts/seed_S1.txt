@@ -1,0 +1,56 @@
+def generate_s1_type(batch_size,problem_size: int = 100, gen_weights:list=None):
+    import torch
+    import math
+    import random
+
+    def generate_problem():
+
+        pattern_type = random.choice(['square', 'rect',  'scatter'])
+        num_centers = random.choice([i for i in range(2, 11, 2)]) 
+        half_centers = num_centers // 2
+        base_half = torch.rand(half_centers, 2) * 0.6 + 0.2
+        cluster_centers = torch.cat([base_half, 1.0 - base_half], dim=0)
+
+        # the number of points in each cluster (rounded up)
+        pts_per_cluster = max(1,math.ceil(problem_size / num_centers))
+        all_points = []
+
+        # generate substructures
+        if pattern_type == 'square':
+            side = max(1,int(math.ceil(math.sqrt(pts_per_cluster))))
+            x = torch.linspace(-0.04, 0.04, side)
+            grid = torch.stack(torch.meshgrid(x, x, indexing='ij'), dim=-1).reshape(-1, 2)
+
+        elif pattern_type == 'rect':
+            rows = max(1, torch.randint(2, 4, (1,)).item())
+            cols = max(1, math.ceil(pts_per_cluster / rows))
+            x = torch.linspace(-0.05, 0.05, cols)
+            y = torch.linspace(-0.03, 0.03, rows)
+            grid = torch.stack(torch.meshgrid(x, y, indexing='ij'), dim=-1).reshape(-1, 2)
+
+        else: 
+            num_centers = random.choice([i for i in range(4, 11, 2)]) 
+            half_centers = num_centers // 2
+            base_half = torch.rand(half_centers, 2) * 0.6 + 0.2
+            cluster_centers = torch.cat([base_half, 1.0 - base_half], dim=0)
+            pts_per_cluster = max(1,math.ceil(problem_size / num_centers))
+            all_points = []
+            grid = (torch.rand(pts_per_cluster, 2) - 0.5) * 0.08
+
+        for center in cluster_centers:
+            cluster_points = center + grid[:pts_per_cluster]
+            all_points.append(cluster_points)
+
+        all_points = torch.cat(all_points, dim=0)
+
+        # truncate to the specified size (in random order)
+        if all_points.size(0) > problem_size:
+            idx = torch.randperm(all_points.size(0))[:problem_size]
+            all_points = all_points[idx]
+        return all_points
+
+    batch = torch.stack([generate_problem() for _ in range(batch_size)])
+    return batch
+
+
+

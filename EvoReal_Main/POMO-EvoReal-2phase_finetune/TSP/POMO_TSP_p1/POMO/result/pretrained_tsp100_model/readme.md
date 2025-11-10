@@ -1,0 +1,1 @@
+Download the checkpoints from its [official repository](https://github.com/yd-kwon/POMO/tree/master/NEW_py_ver) and place them in the corresponding directories. For example, place `checkpoint-2000.pt` for TSP at `POMO-EvoReal/TSP/POMO_TSP_p1/POMO/result/pretrained_tsp100_model`.

@@ -1,0 +1,308 @@
+[2025-06-23 00:31:39] test_setX.py(138) : DEBUG_MODE: False
+[2025-06-23 00:31:39] test_setX.py(139) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-06-23 00:31:39] test_setX.py(140) : env_params{'mode': 'test', 'test_in_vrplib': True, 'vrplib_path': '/home/joey/zjh/LEHD_CVRP/CVRP/data/setX.txt', 'data_path': '/home/joey/zjh/LEHD_CVRP/CVRP/data/setX.txt', 'sub_path': False, 'RRC_budget': 100}
+[2025-06-23 00:31:39] test_setX.py(140) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512}
+[2025-06-23 00:31:39] test_setX.py(140) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'begin_index': 0, 'test_episodes': 100, 'test_batch_size': 1}
+[2025-06-23 00:31:39] test_setX.py(140) : logger_params{'log_file': {'desc': 'test__vrp0', 'filename': 'log.txt', 'filepath': '/home/joey/zjh/LEHD_CVRP/CVRP/result/20250623_002815_test__vrp0'}}
+[2025-06-23 00:31:39] Tester_inCVRPlib.py(188) : Greedy, name:X-n101-k25, gap:8.621839 %, Elapsed[0.01m], stu_l:29969.851562 , opt_l:27591.000000
+[2025-06-23 00:31:39] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.621839%, num:1
+[2025-06-23 00:31:39] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   1/100, Elapsed[0.01m], Remain[0.58m], Score_teacher:27591.0000, Score_studetnt: 29969.8516
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(188) : Greedy, name:X-n106-k14, gap:2.129041 %, Elapsed[0.01m], stu_l:26923.257812 , opt_l:26362.000000
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(101) :  problems_X    mean gap:5.375440%, num:2
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   2/100, Elapsed[0.01m], Remain[0.57m], Score_teacher:26362.0000, Score_studetnt: 26923.2578
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(188) : Greedy, name:X-n110-k13, gap:4.079489 %, Elapsed[0.02m], stu_l:15581.740234 , opt_l:14971.000000
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(101) :  problems_X    mean gap:4.943456%, num:3
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   3/100, Elapsed[0.02m], Remain[0.57m], Score_teacher:14971.0000, Score_studetnt: 15581.7402
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(188) : Greedy, name:X-n115-k10, gap:4.955440 %, Elapsed[0.02m], stu_l:13378.669922 , opt_l:12747.000000
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(101) :  problems_X    mean gap:4.946452%, num:4
+[2025-06-23 00:31:40] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   4/100, Elapsed[0.02m], Remain[0.57m], Score_teacher:12747.0000, Score_studetnt: 13378.6699
+[2025-06-23 00:31:41] Tester_inCVRPlib.py(188) : Greedy, name:X-n120-k6, gap:11.315511 %, Elapsed[0.03m], stu_l:14840.583984 , opt_l:13332.000000
+[2025-06-23 00:31:41] Tester_inCVRPlib.py(101) :  problems_X    mean gap:6.220264%, num:5
+[2025-06-23 00:31:41] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   5/100, Elapsed[0.03m], Remain[0.57m], Score_teacher:13332.0000, Score_studetnt: 14840.5840
+[2025-06-23 00:31:41] Tester_inCVRPlib.py(188) : Greedy, name:X-n125-k30, gap:12.079026 %, Elapsed[0.04m], stu_l:62247.570312 , opt_l:55539.000000
+[2025-06-23 00:31:41] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.196724%, num:6
+[2025-06-23 00:31:41] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   6/100, Elapsed[0.04m], Remain[0.58m], Score_teacher:55539.0000, Score_studetnt: 62247.5703
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(188) : Greedy, name:X-n129-k18, gap:3.363910 %, Elapsed[0.04m], stu_l:29913.515625 , opt_l:28940.000000
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(101) :  problems_X    mean gap:6.649179%, num:7
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   7/100, Elapsed[0.04m], Remain[0.58m], Score_teacher:28940.0000, Score_studetnt: 29913.5156
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(188) : Greedy, name:X-n134-k13, gap:6.765227 %, Elapsed[0.05m], stu_l:11654.492188 , opt_l:10916.000000
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(101) :  problems_X    mean gap:6.663685%, num:8
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   8/100, Elapsed[0.05m], Remain[0.59m], Score_teacher:10916.0000, Score_studetnt: 11654.4922
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(188) : Greedy, name:X-n139-k10, gap:9.748853 %, Elapsed[0.06m], stu_l:14914.869141 , opt_l:13590.000000
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.006482%, num:9
+[2025-06-23 00:31:42] Tester_inCVRPlib.py(113) : Test under epoch  1,episode   9/100, Elapsed[0.06m], Remain[0.59m], Score_teacher:13590.0000, Score_studetnt: 14914.8691
+[2025-06-23 00:31:43] Tester_inCVRPlib.py(188) : Greedy, name:X-n143-k7, gap:8.427560 %, Elapsed[0.07m], stu_l:17023.126953 , opt_l:15700.000000
+[2025-06-23 00:31:43] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.148590%, num:10
+[2025-06-23 00:31:43] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  10/100, Elapsed[0.07m], Remain[0.59m], Score_teacher:15700.0000, Score_studetnt: 17023.1270
+[2025-06-23 00:31:43] Tester_inCVRPlib.py(188) : Greedy, name:X-n148-k46, gap:8.865753 %, Elapsed[0.07m], stu_l:47299.992188 , opt_l:43448.000000
+[2025-06-23 00:31:43] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.304695%, num:11
+[2025-06-23 00:31:43] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  11/100, Elapsed[0.07m], Remain[0.60m], Score_teacher:43448.0000, Score_studetnt: 47299.9922
+[2025-06-23 00:31:44] Tester_inCVRPlib.py(188) : Greedy, name:X-n153-k22, gap:15.313181 %, Elapsed[0.08m], stu_l:24469.457031 , opt_l:21220.000000
+[2025-06-23 00:31:44] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.972069%, num:12
+[2025-06-23 00:31:44] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  12/100, Elapsed[0.08m], Remain[0.60m], Score_teacher:21220.0000, Score_studetnt: 24469.4570
+[2025-06-23 00:31:44] Tester_inCVRPlib.py(188) : Greedy, name:X-n157-k13, gap:5.581857 %, Elapsed[0.09m], stu_l:17817.994141 , opt_l:16876.000000
+[2025-06-23 00:31:44] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.788207%, num:13
+[2025-06-23 00:31:44] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  13/100, Elapsed[0.09m], Remain[0.61m], Score_teacher:16876.0000, Score_studetnt: 17817.9941
+[2025-06-23 00:31:45] Tester_inCVRPlib.py(188) : Greedy, name:X-n162-k11, gap:3.747885 %, Elapsed[0.10m], stu_l:14667.875977 , opt_l:14138.000000
+[2025-06-23 00:31:45] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.499612%, num:14
+[2025-06-23 00:31:45] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  14/100, Elapsed[0.10m], Remain[0.61m], Score_teacher:14138.0000, Score_studetnt: 14667.8760
+[2025-06-23 00:31:45] Tester_inCVRPlib.py(188) : Greedy, name:X-n167-k10, gap:13.065387 %, Elapsed[0.11m], stu_l:23242.851562 , opt_l:20557.000000
+[2025-06-23 00:31:45] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.870664%, num:15
+[2025-06-23 00:31:45] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  15/100, Elapsed[0.11m], Remain[0.61m], Score_teacher:20557.0000, Score_studetnt: 23242.8516
+[2025-06-23 00:31:46] Tester_inCVRPlib.py(188) : Greedy, name:X-n172-k51, gap:10.161380 %, Elapsed[0.12m], stu_l:50241.300781 , opt_l:45607.000000
+[2025-06-23 00:31:46] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.013834%, num:16
+[2025-06-23 00:31:46] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  16/100, Elapsed[0.12m], Remain[0.62m], Score_teacher:45607.0000, Score_studetnt: 50241.3008
+[2025-06-23 00:31:47] Tester_inCVRPlib.py(188) : Greedy, name:X-n176-k26, gap:13.471513 %, Elapsed[0.13m], stu_l:54253.000000 , opt_l:47812.000000
+[2025-06-23 00:31:47] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.334874%, num:17
+[2025-06-23 00:31:47] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  17/100, Elapsed[0.13m], Remain[0.62m], Score_teacher:47812.0000, Score_studetnt: 54253.0000
+[2025-06-23 00:31:47] Tester_inCVRPlib.py(188) : Greedy, name:X-n181-k23, gap:1.502476 %, Elapsed[0.14m], stu_l:25953.167969 , opt_l:25569.000000
+[2025-06-23 00:31:47] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.955296%, num:18
+[2025-06-23 00:31:47] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  18/100, Elapsed[0.14m], Remain[0.62m], Score_teacher:25569.0000, Score_studetnt: 25953.1680
+[2025-06-23 00:31:48] Tester_inCVRPlib.py(188) : Greedy, name:X-n186-k15, gap:6.160752 %, Elapsed[0.15m], stu_l:25632.513672 , opt_l:24145.000000
+[2025-06-23 00:31:48] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.860846%, num:19
+[2025-06-23 00:31:48] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  19/100, Elapsed[0.15m], Remain[0.62m], Score_teacher:24145.0000, Score_studetnt: 25632.5137
+[2025-06-23 00:31:48] Tester_inCVRPlib.py(188) : Greedy, name:X-n190-k8, gap:4.587428 %, Elapsed[0.16m], stu_l:17758.945312 , opt_l:16980.000000
+[2025-06-23 00:31:48] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.697175%, num:20
+[2025-06-23 00:31:48] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  20/100, Elapsed[0.16m], Remain[0.63m], Score_teacher:16980.0000, Score_studetnt: 17758.9453
+[2025-06-23 00:31:49] Tester_inCVRPlib.py(188) : Greedy, name:X-n195-k51, gap:14.585377 %, Elapsed[0.17m], stu_l:50675.382812 , opt_l:44225.000000
+[2025-06-23 00:31:49] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.025185%, num:21
+[2025-06-23 00:31:49] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  21/100, Elapsed[0.17m], Remain[0.63m], Score_teacher:44225.0000, Score_studetnt: 50675.3828
+[2025-06-23 00:31:50] Tester_inCVRPlib.py(188) : Greedy, name:X-n200-k36, gap:9.651008 %, Elapsed[0.18m], stu_l:64231.367188 , opt_l:58578.000000
+[2025-06-23 00:31:50] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.099086%, num:22
+[2025-06-23 00:31:50] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  22/100, Elapsed[0.18m], Remain[0.63m], Score_teacher:58578.0000, Score_studetnt: 64231.3672
+[2025-06-23 00:31:50] Tester_inCVRPlib.py(188) : Greedy, name:X-n204-k19, gap:7.829191 %, Elapsed[0.19m], stu_l:21096.781250 , opt_l:19565.000000
+[2025-06-23 00:31:50] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.087351%, num:23
+[2025-06-23 00:31:50] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  23/100, Elapsed[0.19m], Remain[0.63m], Score_teacher:19565.0000, Score_studetnt: 21096.7812
+[2025-06-23 00:31:51] Tester_inCVRPlib.py(188) : Greedy, name:X-n209-k16, gap:7.773687 %, Elapsed[0.20m], stu_l:33039.101562 , opt_l:30656.000000
+[2025-06-23 00:31:51] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.074282%, num:24
+[2025-06-23 00:31:51] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  24/100, Elapsed[0.20m], Remain[0.63m], Score_teacher:30656.0000, Score_studetnt: 33039.1016
+[2025-06-23 00:31:52] Tester_inCVRPlib.py(188) : Greedy, name:X-n214-k11, gap:9.130581 %, Elapsed[0.21m], stu_l:11847.215820 , opt_l:10856.000000
+[2025-06-23 00:31:52] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.116534%, num:25
+[2025-06-23 00:31:52] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  25/100, Elapsed[0.21m], Remain[0.63m], Score_teacher:10856.0000, Score_studetnt: 11847.2158
+[2025-06-23 00:31:52] Tester_inCVRPlib.py(188) : Greedy, name:X-n219-k73, gap:1.279869 %, Elapsed[0.22m], stu_l:119100.062500 , opt_l:117595.000000
+[2025-06-23 00:31:52] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.853585%, num:26
+[2025-06-23 00:31:52] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  26/100, Elapsed[0.22m], Remain[0.63m], Score_teacher:117595.0000, Score_studetnt: 119100.0625
+[2025-06-23 00:31:53] Tester_inCVRPlib.py(188) : Greedy, name:X-n223-k34, gap:7.610198 %, Elapsed[0.23m], stu_l:43514.335938 , opt_l:40437.000000
+[2025-06-23 00:31:53] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.844571%, num:27
+[2025-06-23 00:31:53] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  27/100, Elapsed[0.23m], Remain[0.63m], Score_teacher:40437.0000, Score_studetnt: 43514.3359
+[2025-06-23 00:31:54] Tester_inCVRPlib.py(188) : Greedy, name:X-n228-k23, gap:11.726170 %, Elapsed[0.25m], stu_l:28760.550781 , opt_l:25742.000000
+[2025-06-23 00:31:54] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.983200%, num:28
+[2025-06-23 00:31:54] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  28/100, Elapsed[0.25m], Remain[0.64m], Score_teacher:25742.0000, Score_studetnt: 28760.5508
+[2025-06-23 00:31:55] Tester_inCVRPlib.py(188) : Greedy, name:X-n233-k16, gap:7.549097 %, Elapsed[0.26m], stu_l:20681.691406 , opt_l:19230.000000
+[2025-06-23 00:31:55] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.968231%, num:29
+[2025-06-23 00:31:55] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  29/100, Elapsed[0.26m], Remain[0.64m], Score_teacher:19230.0000, Score_studetnt: 20681.6914
+[2025-06-23 00:31:55] Tester_inCVRPlib.py(188) : Greedy, name:X-n237-k14, gap:11.601109 %, Elapsed[0.27m], stu_l:30179.171875 , opt_l:27042.000000
+[2025-06-23 00:31:55] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.089327%, num:30
+[2025-06-23 00:31:55] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  30/100, Elapsed[0.27m], Remain[0.64m], Score_teacher:27042.0000, Score_studetnt: 30179.1719
+[2025-06-23 00:31:56] Tester_inCVRPlib.py(188) : Greedy, name:X-n242-k48, gap:6.307222 %, Elapsed[0.29m], stu_l:87970.289062 , opt_l:82751.000000
+[2025-06-23 00:31:56] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.031839%, num:31
+[2025-06-23 00:31:56] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  31/100, Elapsed[0.29m], Remain[0.64m], Score_teacher:82751.0000, Score_studetnt: 87970.2891
+[2025-06-23 00:31:57] Tester_inCVRPlib.py(188) : Greedy, name:X-n247-k50, gap:16.470659 %, Elapsed[0.30m], stu_l:43413.273438 , opt_l:37274.000000
+[2025-06-23 00:31:57] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.295552%, num:32
+[2025-06-23 00:31:57] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  32/100, Elapsed[0.30m], Remain[0.63m], Score_teacher:37274.0000, Score_studetnt: 43413.2734
+[2025-06-23 00:31:58] Tester_inCVRPlib.py(188) : Greedy, name:X-n251-k28, gap:6.055213 %, Elapsed[0.31m], stu_l:41026.398438 , opt_l:38684.000000
+[2025-06-23 00:31:58] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.227663%, num:33
+[2025-06-23 00:31:58] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  33/100, Elapsed[0.31m], Remain[0.63m], Score_teacher:38684.0000, Score_studetnt: 41026.3984
+[2025-06-23 00:31:58] Tester_inCVRPlib.py(188) : Greedy, name:X-n256-k16, gap:8.683014 %, Elapsed[0.33m], stu_l:20474.792969 , opt_l:18839.000000
+[2025-06-23 00:31:58] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.241056%, num:34
+[2025-06-23 00:31:58] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  34/100, Elapsed[0.33m], Remain[0.63m], Score_teacher:18839.0000, Score_studetnt: 20474.7930
+[2025-06-23 00:31:59] Tester_inCVRPlib.py(188) : Greedy, name:X-n261-k13, gap:9.445130 %, Elapsed[0.34m], stu_l:29066.437500 , opt_l:26558.000000
+[2025-06-23 00:31:59] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.275458%, num:35
+[2025-06-23 00:31:59] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  35/100, Elapsed[0.34m], Remain[0.63m], Score_teacher:26558.0000, Score_studetnt: 29066.4375
+[2025-06-23 00:32:00] Tester_inCVRPlib.py(188) : Greedy, name:X-n266-k58, gap:8.054975 %, Elapsed[0.35m], stu_l:81557.734375 , opt_l:75478.000000
+[2025-06-23 00:32:00] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.269334%, num:36
+[2025-06-23 00:32:00] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  36/100, Elapsed[0.35m], Remain[0.63m], Score_teacher:75478.0000, Score_studetnt: 81557.7344
+[2025-06-23 00:32:01] Tester_inCVRPlib.py(188) : Greedy, name:X-n270-k35, gap:5.322588 %, Elapsed[0.37m], stu_l:37169.394531 , opt_l:35291.000000
+[2025-06-23 00:32:01] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.189692%, num:37
+[2025-06-23 00:32:01] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  37/100, Elapsed[0.37m], Remain[0.62m], Score_teacher:35291.0000, Score_studetnt: 37169.3945
+[2025-06-23 00:32:02] Tester_inCVRPlib.py(188) : Greedy, name:X-n275-k28, gap:3.221714 %, Elapsed[0.38m], stu_l:21929.453125 , opt_l:21245.000000
+[2025-06-23 00:32:02] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.058956%, num:38
+[2025-06-23 00:32:02] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  38/100, Elapsed[0.38m], Remain[0.62m], Score_teacher:21245.0000, Score_studetnt: 21929.4531
+[2025-06-23 00:32:03] Tester_inCVRPlib.py(188) : Greedy, name:X-n280-k17, gap:11.440312 %, Elapsed[0.40m], stu_l:37335.847656 , opt_l:33503.000000
+[2025-06-23 00:32:03] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.145657%, num:39
+[2025-06-23 00:32:03] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  39/100, Elapsed[0.40m], Remain[0.62m], Score_teacher:33503.0000, Score_studetnt: 37335.8477
+[2025-06-23 00:32:04] Tester_inCVRPlib.py(188) : Greedy, name:X-n284-k15, gap:6.867524 %, Elapsed[0.41m], stu_l:21615.025391 , opt_l:20226.000000
+[2025-06-23 00:32:04] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.113704%, num:40
+[2025-06-23 00:32:04] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  40/100, Elapsed[0.41m], Remain[0.62m], Score_teacher:20226.0000, Score_studetnt: 21615.0254
+[2025-06-23 00:32:04] Tester_inCVRPlib.py(188) : Greedy, name:X-n289-k60, gap:11.766413 %, Elapsed[0.43m], stu_l:106346.859375 , opt_l:95151.000000
+[2025-06-23 00:32:04] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.202794%, num:41
+[2025-06-23 00:32:04] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  41/100, Elapsed[0.43m], Remain[0.61m], Score_teacher:95151.0000, Score_studetnt: 106346.8594
+[2025-06-23 00:32:05] Tester_inCVRPlib.py(188) : Greedy, name:X-n294-k50, gap:7.660552 %, Elapsed[0.44m], stu_l:50773.792969 , opt_l:47161.000000
+[2025-06-23 00:32:05] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.189884%, num:42
+[2025-06-23 00:32:05] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  42/100, Elapsed[0.44m], Remain[0.61m], Score_teacher:47161.0000, Score_studetnt: 50773.7930
+[2025-06-23 00:32:06] Tester_inCVRPlib.py(188) : Greedy, name:X-n298-k31, gap:5.018808 %, Elapsed[0.46m], stu_l:35948.988281 , opt_l:34231.000000
+[2025-06-23 00:32:06] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.116138%, num:43
+[2025-06-23 00:32:06] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  43/100, Elapsed[0.46m], Remain[0.61m], Score_teacher:34231.0000, Score_studetnt: 35948.9883
+[2025-06-23 00:32:07] Tester_inCVRPlib.py(188) : Greedy, name:X-n303-k21, gap:6.469098 %, Elapsed[0.47m], stu_l:23142.123047 , opt_l:21736.000000
+[2025-06-23 00:32:07] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.078705%, num:44
+[2025-06-23 00:32:07] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  44/100, Elapsed[0.47m], Remain[0.60m], Score_teacher:21736.0000, Score_studetnt: 23142.1230
+[2025-06-23 00:32:08] Tester_inCVRPlib.py(188) : Greedy, name:X-n308-k13, gap:10.702194 %, Elapsed[0.49m], stu_l:28626.480469 , opt_l:25859.000000
+[2025-06-23 00:32:08] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.137005%, num:45
+[2025-06-23 00:32:08] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  45/100, Elapsed[0.49m], Remain[0.60m], Score_teacher:25859.0000, Score_studetnt: 28626.4805
+[2025-06-23 00:32:09] Tester_inCVRPlib.py(188) : Greedy, name:X-n313-k71, gap:12.886658 %, Elapsed[0.51m], stu_l:106162.000000 , opt_l:94043.000000
+[2025-06-23 00:32:09] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.240258%, num:46
+[2025-06-23 00:32:09] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  46/100, Elapsed[0.51m], Remain[0.59m], Score_teacher:94043.0000, Score_studetnt: 106162.0000
+[2025-06-23 00:32:10] Tester_inCVRPlib.py(188) : Greedy, name:X-n317-k53, gap:2.786068 %, Elapsed[0.52m], stu_l:80538.023438 , opt_l:78355.000000
+[2025-06-23 00:32:10] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.124211%, num:47
+[2025-06-23 00:32:10] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  47/100, Elapsed[0.52m], Remain[0.59m], Score_teacher:78355.0000, Score_studetnt: 80538.0234
+[2025-06-23 00:32:11] Tester_inCVRPlib.py(188) : Greedy, name:X-n322-k28, gap:9.356604 %, Elapsed[0.54m], stu_l:32625.449219 , opt_l:29834.000000
+[2025-06-23 00:32:11] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.149886%, num:48
+[2025-06-23 00:32:11] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  48/100, Elapsed[0.54m], Remain[0.59m], Score_teacher:29834.0000, Score_studetnt: 32625.4492
+[2025-06-23 00:32:12] Tester_inCVRPlib.py(188) : Greedy, name:X-n327-k20, gap:6.771524 %, Elapsed[0.56m], stu_l:29396.335938 , opt_l:27532.000000
+[2025-06-23 00:32:12] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.121756%, num:49
+[2025-06-23 00:32:12] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  49/100, Elapsed[0.56m], Remain[0.58m], Score_teacher:27532.0000, Score_studetnt: 29396.3359
+[2025-06-23 00:32:14] Tester_inCVRPlib.py(188) : Greedy, name:X-n331-k15, gap:10.524167 %, Elapsed[0.58m], stu_l:34375.226562 , opt_l:31102.000000
+[2025-06-23 00:32:14] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.169805%, num:50
+[2025-06-23 00:32:14] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  50/100, Elapsed[0.58m], Remain[0.58m], Score_teacher:31102.0000, Score_studetnt: 34375.2266
+[2025-06-23 00:32:15] Tester_inCVRPlib.py(188) : Greedy, name:X-n336-k84, gap:14.903218 %, Elapsed[0.60m], stu_l:159843.015625 , opt_l:139111.000000
+[2025-06-23 00:32:15] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.301832%, num:51
+[2025-06-23 00:32:15] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  51/100, Elapsed[0.60m], Remain[0.57m], Score_teacher:139111.0000, Score_studetnt: 159843.0156
+[2025-06-23 00:32:16] Tester_inCVRPlib.py(188) : Greedy, name:X-n344-k43, gap:5.689302 %, Elapsed[0.62m], stu_l:44442.351562 , opt_l:42050.000000
+[2025-06-23 00:32:16] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.251591%, num:52
+[2025-06-23 00:32:16] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  52/100, Elapsed[0.62m], Remain[0.57m], Score_teacher:42050.0000, Score_studetnt: 44442.3516
+[2025-06-23 00:32:17] Tester_inCVRPlib.py(188) : Greedy, name:X-n351-k40, gap:9.188338 %, Elapsed[0.63m], stu_l:28275.412109 , opt_l:25896.000000
+[2025-06-23 00:32:17] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.269266%, num:53
+[2025-06-23 00:32:17] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  53/100, Elapsed[0.63m], Remain[0.56m], Score_teacher:25896.0000, Score_studetnt: 28275.4121
+[2025-06-23 00:32:18] Tester_inCVRPlib.py(188) : Greedy, name:X-n359-k29, gap:4.572190 %, Elapsed[0.65m], stu_l:53859.906250 , opt_l:51505.000000
+[2025-06-23 00:32:18] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.200801%, num:54
+[2025-06-23 00:32:18] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  54/100, Elapsed[0.65m], Remain[0.56m], Score_teacher:51505.0000, Score_studetnt: 53859.9062
+[2025-06-23 00:32:19] Tester_inCVRPlib.py(188) : Greedy, name:X-n367-k17, gap:11.980856 %, Elapsed[0.68m], stu_l:25547.312500 , opt_l:22814.000000
+[2025-06-23 00:32:19] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.269530%, num:55
+[2025-06-23 00:32:19] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  55/100, Elapsed[0.68m], Remain[0.55m], Score_teacher:22814.0000, Score_studetnt: 25547.3125
+[2025-06-23 00:32:21] Tester_inCVRPlib.py(188) : Greedy, name:X-n376-k94, gap:0.962318 %, Elapsed[0.70m], stu_l:149134.468750 , opt_l:147713.000000
+[2025-06-23 00:32:21] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.139044%, num:56
+[2025-06-23 00:32:21] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  56/100, Elapsed[0.70m], Remain[0.55m], Score_teacher:147713.0000, Score_studetnt: 149134.4688
+[2025-06-23 00:32:22] Tester_inCVRPlib.py(188) : Greedy, name:X-n384-k52, gap:6.657665 %, Elapsed[0.72m], stu_l:70317.265625 , opt_l:65928.000000
+[2025-06-23 00:32:22] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.113055%, num:57
+[2025-06-23 00:32:22] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  57/100, Elapsed[0.72m], Remain[0.54m], Score_teacher:65928.0000, Score_studetnt: 70317.2656
+[2025-06-23 00:32:23] Tester_inCVRPlib.py(188) : Greedy, name:X-n393-k38, gap:5.158394 %, Elapsed[0.74m], stu_l:40233.601562 , opt_l:38260.000000
+[2025-06-23 00:32:23] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.062112%, num:58
+[2025-06-23 00:32:23] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  58/100, Elapsed[0.74m], Remain[0.54m], Score_teacher:38260.0000, Score_studetnt: 40233.6016
+[2025-06-23 00:32:25] Tester_inCVRPlib.py(188) : Greedy, name:X-n401-k29, gap:4.746453 %, Elapsed[0.76m], stu_l:69293.968750 , opt_l:66154.000000
+[2025-06-23 00:32:25] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.005915%, num:59
+[2025-06-23 00:32:25] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  59/100, Elapsed[0.76m], Remain[0.53m], Score_teacher:66154.0000, Score_studetnt: 69293.9688
+[2025-06-23 00:32:26] Tester_inCVRPlib.py(188) : Greedy, name:X-n411-k19, gap:15.258413 %, Elapsed[0.79m], stu_l:22719.738281 , opt_l:19712.000000
+[2025-06-23 00:32:26] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.126790%, num:60
+[2025-06-23 00:32:26] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  60/100, Elapsed[0.79m], Remain[0.53m], Score_teacher:19712.0000, Score_studetnt: 22719.7383
+[2025-06-23 00:32:28] Tester_inCVRPlib.py(188) : Greedy, name:X-n420-k130, gap:6.544112 %, Elapsed[0.81m], stu_l:114852.421875 , opt_l:107798.000000
+[2025-06-23 00:32:28] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.100844%, num:61
+[2025-06-23 00:32:28] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  61/100, Elapsed[0.81m], Remain[0.52m], Score_teacher:107798.0000, Score_studetnt: 114852.4219
+[2025-06-23 00:32:29] Tester_inCVRPlib.py(188) : Greedy, name:X-n429-k61, gap:6.038874 %, Elapsed[0.83m], stu_l:69401.382812 , opt_l:65449.000000
+[2025-06-23 00:32:29] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.067587%, num:62
+[2025-06-23 00:32:29] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  62/100, Elapsed[0.83m], Remain[0.51m], Score_teacher:65449.0000, Score_studetnt: 69401.3828
+[2025-06-23 00:32:30] Tester_inCVRPlib.py(188) : Greedy, name:X-n439-k37, gap:4.754255 %, Elapsed[0.86m], stu_l:38121.121094 , opt_l:36391.000000
+[2025-06-23 00:32:30] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.014994%, num:63
+[2025-06-23 00:32:30] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  63/100, Elapsed[0.86m], Remain[0.50m], Score_teacher:36391.0000, Score_studetnt: 38121.1211
+[2025-06-23 00:32:32] Tester_inCVRPlib.py(188) : Greedy, name:X-n449-k29, gap:7.637941 %, Elapsed[0.88m], stu_l:59451.664062 , opt_l:55233.000000
+[2025-06-23 00:32:32] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.009103%, num:64
+[2025-06-23 00:32:32] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  64/100, Elapsed[0.88m], Remain[0.50m], Score_teacher:55233.0000, Score_studetnt: 59451.6641
+[2025-06-23 00:32:33] Tester_inCVRPlib.py(188) : Greedy, name:X-n459-k26, gap:8.064475 %, Elapsed[0.91m], stu_l:26085.683594 , opt_l:24139.000000
+[2025-06-23 00:32:33] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.009954%, num:65
+[2025-06-23 00:32:33] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  65/100, Elapsed[0.91m], Remain[0.49m], Score_teacher:24139.0000, Score_studetnt: 26085.6836
+[2025-06-23 00:32:35] Tester_inCVRPlib.py(188) : Greedy, name:X-n469-k138, gap:16.566709 %, Elapsed[0.93m], stu_l:258572.937500 , opt_l:221824.000000
+[2025-06-23 00:32:35] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.139602%, num:66
+[2025-06-23 00:32:35] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  66/100, Elapsed[0.93m], Remain[0.48m], Score_teacher:221824.0000, Score_studetnt: 258572.9375
+[2025-06-23 00:32:36] Tester_inCVRPlib.py(188) : Greedy, name:X-n480-k70, gap:6.327008 %, Elapsed[0.96m], stu_l:95108.445312 , opt_l:89449.000000
+[2025-06-23 00:32:36] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.112549%, num:67
+[2025-06-23 00:32:36] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  67/100, Elapsed[0.96m], Remain[0.47m], Score_teacher:89449.0000, Score_studetnt: 95108.4453
+[2025-06-23 00:32:38] Tester_inCVRPlib.py(188) : Greedy, name:X-n491-k59, gap:7.561837 %, Elapsed[0.98m], stu_l:71510.335938 , opt_l:66483.000000
+[2025-06-23 00:32:38] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.104450%, num:68
+[2025-06-23 00:32:38] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  68/100, Elapsed[0.98m], Remain[0.46m], Score_teacher:66483.0000, Score_studetnt: 71510.3359
+[2025-06-23 00:32:40] Tester_inCVRPlib.py(188) : Greedy, name:X-n502-k39, gap:2.009654 %, Elapsed[1.01m], stu_l:70617.203125 , opt_l:69226.000000
+[2025-06-23 00:32:40] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.016120%, num:69
+[2025-06-23 00:32:40] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  69/100, Elapsed[1.01m], Remain[0.45m], Score_teacher:69226.0000, Score_studetnt: 70617.2031
+[2025-06-23 00:32:41] Tester_inCVRPlib.py(188) : Greedy, name:X-n513-k21, gap:5.052526 %, Elapsed[1.04m], stu_l:25423.761719 , opt_l:24201.000000
+[2025-06-23 00:32:41] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.973782%, num:70
+[2025-06-23 00:32:41] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  70/100, Elapsed[1.04m], Remain[0.44m], Score_teacher:24201.0000, Score_studetnt: 25423.7617
+[2025-06-23 00:32:43] Tester_inCVRPlib.py(188) : Greedy, name:X-n524-k153, gap:19.841778 %, Elapsed[1.07m], stu_l:185267.000000 , opt_l:154593.000000
+[2025-06-23 00:32:43] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.140937%, num:71
+[2025-06-23 00:32:43] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  71/100, Elapsed[1.07m], Remain[0.44m], Score_teacher:154593.0000, Score_studetnt: 185267.0000
+[2025-06-23 00:32:45] Tester_inCVRPlib.py(188) : Greedy, name:X-n536-k96, gap:9.822798 %, Elapsed[1.10m], stu_l:104162.531250 , opt_l:94846.000000
+[2025-06-23 00:32:45] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.164297%, num:72
+[2025-06-23 00:32:45] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  72/100, Elapsed[1.10m], Remain[0.43m], Score_teacher:94846.0000, Score_studetnt: 104162.5312
+[2025-06-23 00:32:47] Tester_inCVRPlib.py(188) : Greedy, name:X-n548-k50, gap:2.141166 %, Elapsed[1.13m], stu_l:88556.390625 , opt_l:86700.000000
+[2025-06-23 00:32:47] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.081788%, num:73
+[2025-06-23 00:32:47] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  73/100, Elapsed[1.13m], Remain[0.42m], Score_teacher:86700.0000, Score_studetnt: 88556.3906
+[2025-06-23 00:32:48] Tester_inCVRPlib.py(188) : Greedy, name:X-n561-k42, gap:5.028580 %, Elapsed[1.16m], stu_l:44865.058594 , opt_l:42717.000000
+[2025-06-23 00:32:48] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.040528%, num:74
+[2025-06-23 00:32:48] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  74/100, Elapsed[1.16m], Remain[0.41m], Score_teacher:42717.0000, Score_studetnt: 44865.0586
+[2025-06-23 00:32:50] Tester_inCVRPlib.py(188) : Greedy, name:X-n573-k30, gap:6.910146 %, Elapsed[1.19m], stu_l:54174.578125 , opt_l:50673.000000
+[2025-06-23 00:32:50] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.025457%, num:75
+[2025-06-23 00:32:50] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  75/100, Elapsed[1.19m], Remain[0.40m], Score_teacher:50673.0000, Score_studetnt: 54174.5781
+[2025-06-23 00:32:52] Tester_inCVRPlib.py(188) : Greedy, name:X-n586-k159, gap:9.830164 %, Elapsed[1.22m], stu_l:209024.375000 , opt_l:190316.000000
+[2025-06-23 00:32:52] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.049203%, num:76
+[2025-06-23 00:32:52] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  76/100, Elapsed[1.22m], Remain[0.39m], Score_teacher:190316.0000, Score_studetnt: 209024.3750
+[2025-06-23 00:32:54] Tester_inCVRPlib.py(188) : Greedy, name:X-n599-k92, gap:8.492329 %, Elapsed[1.26m], stu_l:117661.015625 , opt_l:108451.000000
+[2025-06-23 00:32:54] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.054958%, num:77
+[2025-06-23 00:32:54] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  77/100, Elapsed[1.26m], Remain[0.38m], Score_teacher:108451.0000, Score_studetnt: 117661.0156
+[2025-06-23 00:32:57] Tester_inCVRPlib.py(188) : Greedy, name:X-n613-k62, gap:6.728238 %, Elapsed[1.29m], stu_l:63540.656250 , opt_l:59535.000000
+[2025-06-23 00:32:57] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.037948%, num:78
+[2025-06-23 00:32:57] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  78/100, Elapsed[1.29m], Remain[0.37m], Score_teacher:59535.0000, Score_studetnt: 63540.6562
+[2025-06-23 00:32:59] Tester_inCVRPlib.py(188) : Greedy, name:X-n627-k43, gap:6.920731 %, Elapsed[1.33m], stu_l:66466.203125 , opt_l:62164.000000
+[2025-06-23 00:32:59] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.023806%, num:79
+[2025-06-23 00:32:59] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  79/100, Elapsed[1.33m], Remain[0.35m], Score_teacher:62164.0000, Score_studetnt: 66466.2031
+[2025-06-23 00:33:01] Tester_inCVRPlib.py(188) : Greedy, name:X-n641-k35, gap:8.780150 %, Elapsed[1.37m], stu_l:69273.375000 , opt_l:63682.000000
+[2025-06-23 00:33:01] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.033261%, num:80
+[2025-06-23 00:33:01] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  80/100, Elapsed[1.37m], Remain[0.34m], Score_teacher:63682.0000, Score_studetnt: 69273.3750
+[2025-06-23 00:33:03] Tester_inCVRPlib.py(188) : Greedy, name:X-n655-k131, gap:1.129893 %, Elapsed[1.40m], stu_l:107986.500000 , opt_l:106780.000000
+[2025-06-23 00:33:03] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.948034%, num:81
+[2025-06-23 00:33:03] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  81/100, Elapsed[1.40m], Remain[0.33m], Score_teacher:106780.0000, Score_studetnt: 107986.5000
+[2025-06-23 00:33:05] Tester_inCVRPlib.py(188) : Greedy, name:X-n670-k130, gap:15.501266 %, Elapsed[1.44m], stu_l:169015.312500 , opt_l:146332.000000
+[2025-06-23 00:33:05] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.040146%, num:82
+[2025-06-23 00:33:05] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  82/100, Elapsed[1.44m], Remain[0.32m], Score_teacher:146332.0000, Score_studetnt: 169015.3125
+[2025-06-23 00:33:08] Tester_inCVRPlib.py(188) : Greedy, name:X-n685-k75, gap:7.345388 %, Elapsed[1.48m], stu_l:73214.921875 , opt_l:68205.000000
+[2025-06-23 00:33:08] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.031776%, num:83
+[2025-06-23 00:33:08] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  83/100, Elapsed[1.48m], Remain[0.30m], Score_teacher:68205.0000, Score_studetnt: 73214.9219
+[2025-06-23 00:33:10] Tester_inCVRPlib.py(188) : Greedy, name:X-n701-k44, gap:4.082721 %, Elapsed[1.52m], stu_l:85267.687500 , opt_l:81923.000000
+[2025-06-23 00:33:10] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.984763%, num:84
+[2025-06-23 00:33:10] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  84/100, Elapsed[1.52m], Remain[0.29m], Score_teacher:81923.0000, Score_studetnt: 85267.6875
+[2025-06-23 00:33:12] Tester_inCVRPlib.py(188) : Greedy, name:X-n716-k35, gap:8.015607 %, Elapsed[1.56m], stu_l:46849.609375 , opt_l:43373.000000
+[2025-06-23 00:33:12] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.985126%, num:85
+[2025-06-23 00:33:12] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  85/100, Elapsed[1.56m], Remain[0.28m], Score_teacher:43373.0000, Score_studetnt: 46849.6094
+[2025-06-23 00:33:15] Tester_inCVRPlib.py(188) : Greedy, name:X-n733-k159, gap:7.272239 %, Elapsed[1.60m], stu_l:146090.843750 , opt_l:136187.000000
+[2025-06-23 00:33:15] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.976837%, num:86
+[2025-06-23 00:33:15] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  86/100, Elapsed[1.60m], Remain[0.26m], Score_teacher:136187.0000, Score_studetnt: 146090.8438
+[2025-06-23 00:33:18] Tester_inCVRPlib.py(188) : Greedy, name:X-n749-k98, gap:8.512945 %, Elapsed[1.65m], stu_l:83846.867188 , opt_l:77269.000000
+[2025-06-23 00:33:18] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.982999%, num:87
+[2025-06-23 00:33:18] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  87/100, Elapsed[1.65m], Remain[0.25m], Score_teacher:77269.0000, Score_studetnt: 83846.8672
+[2025-06-23 00:33:20] Tester_inCVRPlib.py(188) : Greedy, name:X-n766-k71, gap:13.743792 %, Elapsed[1.69m], stu_l:130142.234375 , opt_l:114417.000000
+[2025-06-23 00:33:20] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.048463%, num:88
+[2025-06-23 00:33:20] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  88/100, Elapsed[1.69m], Remain[0.23m], Score_teacher:114417.0000, Score_studetnt: 130142.2344
+[2025-06-23 00:33:23] Tester_inCVRPlib.py(188) : Greedy, name:X-n783-k48, gap:7.188361 %, Elapsed[1.74m], stu_l:77589.367188 , opt_l:72386.000000
+[2025-06-23 00:33:23] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.038798%, num:89
+[2025-06-23 00:33:23] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  89/100, Elapsed[1.74m], Remain[0.21m], Score_teacher:72386.0000, Score_studetnt: 77589.3672
+[2025-06-23 00:33:26] Tester_inCVRPlib.py(188) : Greedy, name:X-n801-k40, gap:6.387887 %, Elapsed[1.78m], stu_l:77987.640625 , opt_l:73305.000000
+[2025-06-23 00:33:26] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.020455%, num:90
+[2025-06-23 00:33:26] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  90/100, Elapsed[1.78m], Remain[0.20m], Score_teacher:73305.0000, Score_studetnt: 77987.6406
+[2025-06-23 00:33:29] Tester_inCVRPlib.py(188) : Greedy, name:X-n819-k171, gap:12.036826 %, Elapsed[1.83m], stu_l:177153.750000 , opt_l:158121.000000
+[2025-06-23 00:33:29] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.064591%, num:91
+[2025-06-23 00:33:29] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  91/100, Elapsed[1.83m], Remain[0.18m], Score_teacher:158121.0000, Score_studetnt: 177153.7500
+[2025-06-23 00:33:31] Tester_inCVRPlib.py(188) : Greedy, name:X-n837-k142, gap:7.229679 %, Elapsed[1.88m], stu_l:207743.562500 , opt_l:193737.000000
+[2025-06-23 00:33:31] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.055516%, num:92
+[2025-06-23 00:33:31] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  92/100, Elapsed[1.88m], Remain[0.16m], Score_teacher:193737.0000, Score_studetnt: 207743.5625
+[2025-06-23 00:33:34] Tester_inCVRPlib.py(188) : Greedy, name:X-n856-k95, gap:2.567284 %, Elapsed[1.93m], stu_l:91248.984375 , opt_l:88965.000000
+[2025-06-23 00:33:34] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.996503%, num:93
+[2025-06-23 00:33:34] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  93/100, Elapsed[1.93m], Remain[0.14m], Score_teacher:88965.0000, Score_studetnt: 91248.9844
+[2025-06-23 00:33:37] Tester_inCVRPlib.py(188) : Greedy, name:X-n876-k59, gap:7.438771 %, Elapsed[1.98m], stu_l:106685.625000 , opt_l:99299.000000
+[2025-06-23 00:33:37] Tester_inCVRPlib.py(101) :  problems_X    mean gap:7.990569%, num:94
+[2025-06-23 00:33:37] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  94/100, Elapsed[1.98m], Remain[0.13m], Score_teacher:99299.0000, Score_studetnt: 106685.6250
+[2025-06-23 00:33:41] Tester_inCVRPlib.py(188) : Greedy, name:X-n895-k37, gap:9.993400 %, Elapsed[2.03m], stu_l:59242.445312 , opt_l:53860.000000
+[2025-06-23 00:33:41] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.011652%, num:95
+[2025-06-23 00:33:41] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  95/100, Elapsed[2.03m], Remain[0.11m], Score_teacher:53860.0000, Score_studetnt: 59242.4453
+[2025-06-23 00:33:44] Tester_inCVRPlib.py(188) : Greedy, name:X-n916-k207, gap:10.757863 %, Elapsed[2.08m], stu_l:364591.625000 , opt_l:329179.000000
+[2025-06-23 00:33:44] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.040258%, num:96
+[2025-06-23 00:33:44] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  96/100, Elapsed[2.08m], Remain[0.09m], Score_teacher:329179.0000, Score_studetnt: 364591.6250
+[2025-06-23 00:33:47] Tester_inCVRPlib.py(188) : Greedy, name:X-n936-k151, gap:16.355089 %, Elapsed[2.14m], stu_l:154420.656250 , opt_l:132715.000000
+[2025-06-23 00:33:47] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.125978%, num:97
+[2025-06-23 00:33:47] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  97/100, Elapsed[2.14m], Remain[0.07m], Score_teacher:132715.0000, Score_studetnt: 154420.6562
+[2025-06-23 00:33:50] Tester_inCVRPlib.py(188) : Greedy, name:X-n957-k87, gap:3.670847 %, Elapsed[2.19m], stu_l:88602.289062 , opt_l:85465.000000
+[2025-06-23 00:33:50] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.080517%, num:98
+[2025-06-23 00:33:50] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  98/100, Elapsed[2.19m], Remain[0.04m], Score_teacher:85465.0000, Score_studetnt: 88602.2891
+[2025-06-23 00:33:54] Tester_inCVRPlib.py(188) : Greedy, name:X-n979-k58, gap:4.656579 %, Elapsed[2.25m], stu_l:124516.210938 , opt_l:118976.000000
+[2025-06-23 00:33:54] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.045932%, num:99
+[2025-06-23 00:33:54] Tester_inCVRPlib.py(113) : Test under epoch  1,episode  99/100, Elapsed[2.25m], Remain[0.02m], Score_teacher:118976.0000, Score_studetnt: 124516.2109
+[2025-06-23 00:33:57] Tester_inCVRPlib.py(188) : Greedy, name:X-n1001-k43, gap:6.966800 %, Elapsed[2.31m], stu_l:77395.828125 , opt_l:72355.000000
+[2025-06-23 00:33:57] Tester_inCVRPlib.py(101) :  problems_X    mean gap:8.035141%, num:100
+[2025-06-23 00:33:57] Tester_inCVRPlib.py(113) : Test under epoch  1,episode 100/100, Elapsed[2.31m], Remain[0.00m], Score_teacher:72355.0000, Score_studetnt: 77395.8281
+[2025-06-23 00:33:57] Tester_inCVRPlib.py(120) :  *** Test Done *** 
+[2025-06-23 00:33:57] Tester_inCVRPlib.py(123) :  Gap: 8.0351%

@@ -1,0 +1,19 @@
+The function must take two arguments: (n, cust_type=None). It generates a 2D coordinate array of shape (n, 2) representing customer positions for a CVRP instance. The function has two input parameter: 'n' and 'cust_type=None'. 'n' is the number of customers in each generated CVRP instance while 'cust_type=None' is a fixed trivial parameter (do not change it). The function must always return a numpy.ndarray of shape (n, 2), with all coordinate values in the range [0, 1], and all customer positions must be unique.
+
+To ensure uniqueness, you must always include and call the following helper function inside your implementation:
+
+def ensure_n_unique_points(points, n):
+    """
+    Ensure the output points are unique and exactly n.
+    """
+    points = np.unique(points, axis=0)
+    while len(points) < n:
+        new_pt = np.round(np.random.rand(1, 2), 3)
+        while any((new_pt == points).all(axis=1)):
+            new_pt = np.round(np.random.rand(1, 2), 3)
+        points = np.vstack([points, new_pt])
+    if len(points) > n:
+        points = points[:n]
+    return points
+
+Do not assume this function is externally available — you must include this definition directly in your output. Do not modify it or remove it.  Both the input and the return of `ensure_n_unique_points` is a (n,2) shape numpy.ndarray.

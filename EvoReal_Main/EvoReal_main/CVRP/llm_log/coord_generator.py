@@ -1,0 +1,32 @@
+def generate_customer_positions(n, cust_type=None):
+    """
+    Generate customer positions in [0,1] x [0,1] with three types: R, C, RC.
+    R: Random uniform; C: Clustered; RC: Half clustered, half random.
+    """
+    import random
+    import numpy as np
+
+    def ensure_n_unique_points(points, n):
+        """
+        Ensure the output points are unique and exactly n.
+        """
+        points = np.unique(points, axis=0)
+        while len(points) < n:
+            new_pt = np.round(np.random.rand(1, 2), 3)
+            while any((new_pt == points).all(axis=1)):
+                new_pt = np.round(np.random.rand(1, 2), 3)
+            points = np.vstack([points, new_pt])
+        if len(points) > n:
+            points = points[:n]
+        return points
+    
+    CUST_TYPES = ['P1']
+    if cust_type is None:
+        cust_type = random.choice(CUST_TYPES)
+    if cust_type == 'P1':
+        # Uniformly sample n points, round to 3 decimals
+        points = np.round(np.random.rand(n, 2), 3)
+        return ensure_n_unique_points(points, n)
+
+    else:
+        raise ValueError(f"Unknown customer type: {cust_type}")

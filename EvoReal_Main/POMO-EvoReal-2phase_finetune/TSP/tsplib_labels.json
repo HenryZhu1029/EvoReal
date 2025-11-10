@@ -1,0 +1,491 @@
+{
+  "fnl4461": {
+    "Problem Size": 4461,
+    "Normalized LB Opt": 36.31708773,
+    "Normalized UP Opt": 36.31708773,
+    "opt": 36.31708773,
+    "Opt": 182566.0
+  },
+  "a280": {
+    "Problem Size": 280.0,
+    "Normalized LB Opt": 9.21071428571429,
+    "Normalized UP Opt": 9.21071428571429,
+    "opt": 9.21071428571429,
+    "Opt": 2579.0
+  },
+  "berlin52": {
+    "Problem Size": 52.0,
+    "Normalized LB Opt": 4.39766763848396,
+    "Normalized UP Opt": 4.39766763848396,
+    "opt": 4.39766763848396,
+    "Opt": 7542.0
+  },
+  "bier127": {
+    "Problem Size": 127.0,
+    "Normalized LB Opt": 6.93654703260615,
+    "Normalized UP Opt": 6.93654703260615,
+    "opt": 6.93654703260615,
+    "Opt": 118282.0
+  },
+  "ch130": {
+    "Problem Size": 130.0,
+    "Normalized LB Opt": 8.83126872608716,
+    "Normalized UP Opt": 8.83126872608716,
+    "opt": 8.83126872608716,
+    "Opt": 6110.0
+  },
+  "ch150": {
+    "Problem Size": 150.0,
+    "Normalized LB Opt": 9.33748320430221,
+    "Normalized UP Opt": 9.33748320430221,
+    "opt": 9.33748320430221,
+    "Opt": 6528.0
+  },
+  "d198": {
+    "Problem Size": 198.0,
+    "Normalized LB Opt": 3.91728520715935,
+    "Normalized UP Opt": 3.91728520715935,
+    "opt": 3.91728520715935,
+    "Opt": 15780.0
+  },
+  "d493": {
+    "Problem Size": 493.0,
+    "Normalized LB Opt": 9.34582932820677,
+    "Normalized UP Opt": 9.34582932820677,
+    "opt": 9.34582932820677,
+    "Opt": 35002.0
+  },
+  "d657": {
+    "Problem Size": 657.0,
+    "Normalized LB Opt": 12.2109047333733,
+    "Normalized UP Opt": 12.2109047333733,
+    "opt": 12.2109047333733,
+    "Opt": 48912.0
+  },
+  "d1291": {
+    "Problem Size": 1291.0,
+    "Normalized LB Opt": 12.8246490962335,
+    "Normalized UP Opt": 12.8246490962335,
+    "opt": 12.8246490962335,
+    "Opt": 50801.0
+  },
+  "d1655": {
+    "Problem Size": 1655.0,
+    "Normalized LB Opt": 16.6732864580538,
+    "Normalized UP Opt": 16.6732864580538,
+    "opt": 16.6732864580538,
+    "Opt": 62128.0
+  },
+  "d2103": {
+    "Problem Size": 2103.0,
+    "Normalized LB Opt": 18.387378685433,
+    "Normalized UP Opt": 18.5019088358401,
+    "opt": 18.444643760636552,
+    "Opt": 80201.0
+  },
+  "fl3795": {
+    "Problem Size": 3795.0,
+    "Normalized LB Opt": 13.6476591862625,
+    "Normalized UP Opt": 13.6709414095723,
+    "opt": 13.659300297917401,
+    "Opt": 28747.5
+  },
+  "eil51": {
+    "Problem Size": 51.0,
+    "Normalized LB Opt": 6.76190476190476,
+    "Normalized UP Opt": 6.76190476190476,
+    "opt": 6.76190476190476,
+    "Opt": 426.0
+  },
+  "eil76": {
+    "Problem Size": 76.0,
+    "Normalized LB Opt": 7.47222222222222,
+    "Normalized UP Opt": 7.47222222222222,
+    "opt": 7.47222222222222,
+    "Opt": 538.0
+  },
+  "eil101": {
+    "Problem Size": 101.0,
+    "Normalized LB Opt": 8.5,
+    "Normalized UP Opt": 8.5,
+    "opt": 8.5,
+    "Opt": 629.0
+  },
+  "fl417": {
+    "Problem Size": 417.0,
+    "Normalized LB Opt": 6.25740564300765,
+    "Normalized UP Opt": 6.25740564300765,
+    "opt": 6.25740564300765,
+    "Opt": 11861.0
+  },
+  "fl1400": {
+    "Problem Size": 1400.0,
+    "Normalized LB Opt": 9.56329201134652,
+    "Normalized UP Opt": 9.56329201134652,
+    "opt": 9.56329201134652,
+    "Opt": 20127.0
+  },
+  "fl1577": {
+    "Problem Size": 1577.0,
+    "Normalized LB Opt": 11.7139730964794,
+    "Normalized UP Opt": 11.737713359015,
+    "opt": 11.7258432277472,
+    "Opt": 22226.5
+  },
+  "gil262": {
+    "Problem Size": 262.0,
+    "Normalized LB Opt": 12.010101010101,
+    "Normalized UP Opt": 12.010101010101,
+    "opt": 12.010101010101,
+    "Opt": 2378.0
+  },
+  "kroA100": {
+    "Problem Size": 100.0,
+    "Normalized LB Opt": 5.40701219512195,
+    "Normalized UP Opt": 5.40701219512195,
+    "opt": 5.40701219512195,
+    "Opt": 21282.0
+  },
+  "kroB100": {
+    "Problem Size": 100.0,
+    "Normalized LB Opt": 5.62668360864041,
+    "Normalized UP Opt": 5.62668360864041,
+    "opt": 5.62668360864041,
+    "Opt": 22141.0
+  },
+  "kroC100": {
+    "Problem Size": 100.0,
+    "Normalized LB Opt": 5.28636942675159,
+    "Normalized UP Opt": 5.28636942675159,
+    "opt": 5.28636942675159,
+    "Opt": 20749.0
+  },
+  "kroD100": {
+    "Problem Size": 100.0,
+    "Normalized LB Opt": 5.46140035906643,
+    "Normalized UP Opt": 5.46140035906643,
+    "opt": 5.46140035906643,
+    "Opt": 21294.0
+  },
+  "kroE100": {
+    "Problem Size": 100.0,
+    "Normalized LB Opt": 5.62385321100917,
+    "Normalized UP Opt": 5.62385321100917,
+    "opt": 5.62385321100917,
+    "Opt": 22068.0
+  },
+  "kroA150": {
+    "Problem Size": 150.0,
+    "Normalized LB Opt": 6.70984062737162,
+    "Normalized UP Opt": 6.70984062737162,
+    "opt": 6.70984062737162,
+    "Opt": 26524.0
+  },
+  "kroB150": {
+    "Problem Size": 150.0,
+    "Normalized LB Opt": 6.65732484076433,
+    "Normalized UP Opt": 6.65732484076433,
+    "opt": 6.65732484076433,
+    "Opt": 26130.0
+  },
+  "kroA200": {
+    "Problem Size": 200.0,
+    "Normalized LB Opt": 7.45191575742198,
+    "Normalized UP Opt": 7.45191575742198,
+    "opt": 7.45191575742198,
+    "Opt": 29368.0
+  },
+  "kroB200": {
+    "Problem Size": 200.0,
+    "Normalized LB Opt": 7.46563530306873,
+    "Normalized UP Opt": 7.46563530306873,
+    "opt": 7.46563530306873,
+    "Opt": 29437.0
+  },
+  "lin105": {
+    "Problem Size": 105.0,
+    "Normalized LB Opt": 4.75496031746032,
+    "Normalized UP Opt": 4.75496031746032,
+    "opt": 4.75496031746032,
+    "Opt": 14379.0
+  },
+  "lin318": {
+    "Problem Size": 318.0,
+    "Normalized LB Opt": 10.1666666666667,
+    "Normalized UP Opt": 10.1666666666667,
+    "opt": 10.1666666666667,
+    "Opt": 42029.0
+  },
+  "nrw1379": {
+    "Problem Size": 1379.0,
+    "Normalized LB Opt": 23.8375420875421,
+    "Normalized UP Opt": 23.8375420875421,
+    "opt": 23.8375420875421,
+    "Opt": 56638.0
+  },
+  "p654": {
+    "Problem Size": 654.0,
+    "Normalized LB Opt": 7.19480789200415,
+    "Normalized UP Opt": 7.19480789200415,
+    "opt": 7.19480789200415,
+    "Opt": 34643.0
+  },
+  "pcb442": {
+    "Problem Size": 442.0,
+    "Normalized LB Opt": 13.3626315789474,
+    "Normalized UP Opt": 13.3626315789474,
+    "opt": 13.3626315789474,
+    "Opt": 50778.0
+  },
+  "pcb1173": {
+    "Problem Size": 1173.0,
+    "Normalized LB Opt": 19.5035995886184,
+    "Normalized UP Opt": 19.5035995886184,
+    "opt": 19.5035995886184,
+    "Opt": 56892.0
+  },
+  "pcb3038": {
+    "Problem Size": 3038.0,
+    "Normalized LB Opt": 34.8592405063291,
+    "Normalized UP Opt": 34.8592405063291,
+    "opt": 34.8592405063291,
+    "Opt": 137694.0
+  },
+  "pr76": {
+    "Problem Size": 76.0,
+    "Normalized LB Opt": 5.51831632653061,
+    "Normalized UP Opt": 5.51831632653061,
+    "opt": 5.51831632653061,
+    "Opt": 108159.0
+  },
+  "pr107": {
+    "Problem Size": 107.0,
+    "Normalized LB Opt": 5.37006060606061,
+    "opt": 5.37006060606061,
+    "Opt": 44303.0
+  },
+  "pr124": {
+    "Problem Size": 124.0,
+    "Normalized LB Opt": 6.2631299734748,
+    "Normalized UP Opt": 6.2631299734748,
+    "opt": 6.2631299734748,
+    "Opt": 59030.0
+  },
+  "pr136": {
+    "Problem Size": 136.0,
+    "Normalized LB Opt": 8.54498896247241,
+    "Normalized UP Opt": 8.54498896247241,
+    "opt": 8.54498896247241,
+    "Opt": 96772.0
+  },
+  "pr144": {
+    "Problem Size": 144.0,
+    "Normalized LB Opt": 5.35807780320366,
+    "Normalized UP Opt": 5.35807780320366,
+    "opt": 5.35807780320366,
+    "Opt": 58537.0
+  },
+  "pr152": {
+    "Problem Size": 152.0,
+    "Normalized LB Opt": 5.36845173041894,
+    "Normalized UP Opt": 5.36845173041894,
+    "opt": 5.36845173041894,
+    "Opt": 73682.0
+  },
+  "pr226": {
+    "Problem Size": 226.0,
+    "Normalized LB Opt": 5.54268965517241,
+    "Normalized UP Opt": 5.54268965517241,
+    "opt": 5.54268965517241,
+    "Opt": 80369.0
+  },
+  "pr264": {
+    "Problem Size": 264.0,
+    "Normalized LB Opt": 6.38116883116883,
+    "Normalized UP Opt": 6.38116883116883,
+    "opt": 6.38116883116883,
+    "Opt": 49135.0
+  },
+  "pr299": {
+    "Problem Size": 299.0,
+    "Normalized LB Opt": 7.2174629324547,
+    "Normalized UP Opt": 7.2174629324547,
+    "opt": 7.2174629324547,
+    "Opt": 48191.0
+  },
+  "pr439": {
+    "Problem Size": 439.0,
+    "Normalized LB Opt": 8.99094339622641,
+    "Normalized UP Opt": 8.99094339622641,
+    "opt": 8.99094339622641,
+    "Opt": 107217.0
+  },
+  "pr1002": {
+    "Problem Size": 1002.0,
+    "Normalized LB Opt": 16.395253164557,
+    "Normalized UP Opt": 16.395253164557,
+    "opt": 16.395253164557,
+    "Opt": 259045.0
+  },
+  "pr2392": {
+    "Problem Size": 2392.0,
+    "Normalized LB Opt": 27.3401316265278,
+    "Normalized UP Opt": 27.3401316265278,
+    "opt": 27.3401316265278,
+    "Opt": 378032.0
+  },
+  "rat99": {
+    "Problem Size": 99.0,
+    "Normalized LB Opt": 5.68544600938967,
+    "Normalized UP Opt": 5.68544600938967,
+    "opt": 5.68544600938967,
+    "Opt": 1211.0
+  },
+  "rat195": {
+    "Problem Size": 195.0,
+    "Normalized LB Opt": 8.03806228373703,
+    "Normalized UP Opt": 8.03806228373703,
+    "opt": 8.03806228373703,
+    "Opt": 2323.0
+  },
+  "rat575": {
+    "Problem Size": 575.0,
+    "Normalized LB Opt": 13.5731462925852,
+    "Normalized UP Opt": 13.5731462925852,
+    "opt": 13.5731462925852,
+    "Opt": 6773.0
+  },
+  "rat783": {
+    "Problem Size": 783.0,
+    "Normalized LB Opt": 15.3414634146342,
+    "Normalized UP Opt": 15.3414634146342,
+    "opt": 15.3414634146342,
+    "Opt": 8806.0
+  },
+  "rd100": {
+    "Problem Size": 100.0,
+    "Normalized LB Opt": 8.06479840190973,
+    "Normalized UP Opt": 8.06479840190973,
+    "opt": 8.06479840190973,
+    "Opt": 7910.0
+  },
+  "rd400": {
+    "Problem Size": 400.0,
+    "Normalized LB Opt": 15.3495998175205,
+    "Normalized UP Opt": 15.3495998175205,
+    "opt": 15.3495998175205,
+    "Opt": 15281.0
+  },
+  "rl1304": {
+    "Problem Size": 1304.0,
+    "Normalized LB Opt": 13.4296787894877,
+    "Normalized UP Opt": 13.4296787894877,
+    "opt": 13.4296787894877,
+    "Opt": 252948.0
+  },
+  "rl1323": {
+    "Problem Size": 1323.0,
+    "Normalized LB Opt": 14.2389860876897,
+    "Normalized UP Opt": 14.2389860876897,
+    "opt": 14.2389860876897,
+    "Opt": 270199.0
+  },
+  "rl1889": {
+    "Problem Size": 1889.0,
+    "Normalized LB Opt": 16.6808600337268,
+    "Normalized UP Opt": 16.6808600337268,
+    "opt": 16.6808600337268,
+    "Opt": 316536.0
+  },
+  "st70": {
+    "Problem Size": 70.0,
+    "Normalized LB Opt": 6.81818181818182,
+    "Normalized UP Opt": 6.81818181818182,
+    "opt": 6.81818181818182,
+    "Opt": 675.0
+  },
+  "ts225": {
+    "Problem Size": 225.0,
+    "Normalized LB Opt": 10.5535833333333,
+    "Normalized UP Opt": 10.5535833333333,
+    "opt": 10.5535833333333,
+    "Opt": 126643.0
+  },
+  "tsp225": {
+    "Problem Size": 225.0,
+    "Normalized LB Opt": 8.34717784877529,
+    "Normalized UP Opt": 8.34717784877529,
+    "opt": 8.34717784877529,
+    "Opt": 3919.0
+  },
+  "u159": {
+    "Problem Size": 159.0,
+    "Normalized LB Opt": 8.09230769230769,
+    "Normalized UP Opt": 8.09230769230769,
+    "opt": 8.09230769230769,
+    "Opt": 42080.0
+  },
+  "u574": {
+    "Problem Size": 574.0,
+    "Normalized LB Opt": 12.0133072483488,
+    "Normalized UP Opt": 12.0133072483488,
+    "opt": 12.0133072483488,
+    "Opt": 36905.0
+  },
+  "u724": {
+    "Problem Size": 724.0,
+    "Normalized LB Opt": 14.437336585265,
+    "Normalized UP Opt": 14.437336585265,
+    "opt": 14.437336585265,
+    "Opt": 41910.0
+  },
+  "u1060": {
+    "Problem Size": 1060.0,
+    "Normalized LB Opt": 11.5420213448128,
+    "Normalized UP Opt": 11.5420213448128,
+    "opt": 11.5420213448128,
+    "Opt": 224094.0
+  },
+  "u1432": {
+    "Problem Size": 1432.0,
+    "Normalized LB Opt": 28.8622641509434,
+    "Normalized UP Opt": 28.8622641509434,
+    "opt": 28.8622641509434,
+    "Opt": 152970.0
+  },
+  "u1817": {
+    "Problem Size": 1817.0,
+    "Normalized LB Opt": 20.1073545230211,
+    "Normalized UP Opt": 20.1073545230211,
+    "opt": 20.1073545230211,
+    "Opt": 57201.0
+  },
+  "u2152": {
+    "Problem Size": 2152.0,
+    "Normalized LB Opt": 22.5861220472441,
+    "Normalized UP Opt": 22.5861220472441,
+    "opt": 22.5861220472441,
+    "Opt": 64253.0
+  },
+  "u2319": {
+    "Problem Size": 2319.0,
+    "Normalized LB Opt": 44.1992452830189,
+    "Normalized UP Opt": 44.1992452830189,
+    "opt": 44.1992452830189,
+    "Opt": 234256.0
+  },
+  "vm1084": {
+    "Problem Size": 1084.0,
+    "Normalized LB Opt": 12.8048480308219,
+    "Normalized UP Opt": 12.8048480308219,
+    "opt": 12.8048480308219,
+    "Opt": 239297.0
+  },
+  "vm1748": {
+    "Problem Size": 1748.0,
+    "Normalized LB Opt": 17.8373966504134,
+    "Normalized UP Opt": 17.8373966504134,
+    "opt": 17.8373966504134,
+    "Opt": 336556.0
+  }
+}

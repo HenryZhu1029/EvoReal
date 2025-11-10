@@ -1,0 +1,9 @@
+Your design for the customer postion generator should align with the design guidance below:
+{external_guide}
+
+seed generator:
+{seed_func}
+
+The generator (python function) above illustrates how to call PyTorch APIs (e.g., `torch.rand`, `torch.cat`, `torch.randperm`, `torch.linspace`) in a safe and modular way. Note that your generator should also have include inner type-selection parameters (e.g. CUST_TYPES = ['P1', 'P2', 'P3'] for customer position generator). The number of customer position types can be any number. However, be sure to denote each customer postion by the capital letter 'P' with index number (i.e., P1,P2,P3...).
+
+ You may refer to the trivial generator above but you should explore more logic, generation strategies, or substructures compositions to create a new one in accordance with the design guidance. Output exactly **one** customer postion generator only and enclose the generator with a Python code block: ```python ... ```

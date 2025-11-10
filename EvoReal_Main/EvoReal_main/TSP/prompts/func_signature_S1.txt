@@ -1,0 +1,2 @@
+def generate_s1_type(batch_size,problem_size: int = 100):
+

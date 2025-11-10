@@ -1,0 +1,17 @@
+    ### Task Objective:
+    {problem_desc}
+
+
+    ### Function Description:
+    All generated new python code must follow this function signature as the first line of python function:
+    {func_desc}
+  
+    ### Function Signature:
+    {func_signature}
+  
+    ### Design Guidance:
+    - Design generation strategies that reflect spatial complexity, distributional realism, and diverse patterns across samples.
+    - Encourage variability across samples: avoid excessive reuse of the same generation logic or structure.
+
+    ### Reference Module:
+    {seed} 

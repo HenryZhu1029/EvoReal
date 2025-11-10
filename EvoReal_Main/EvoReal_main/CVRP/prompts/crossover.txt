@@ -1,0 +1,16 @@
+You are tasked with combining two versions of the customer postion generator `generate_customer_positions`.
+Function Description:
+{func_desc}
+Function Signature:
+{func_signature}
+Please strictly follow the function signature given and avoid modifying the interface or return type.
+Problem Description:
+{problem_desc}
+Below are two function implementations:
+Function Version 0 (less effective):
+{worse_code}
+Function Version 1 (more effective):
+{better_code}
+Based on the following reflection(if available), create a new improved version of `generate_customer_positions`:
+{reflection}
+Output code only and enclose your code with Python code block: ```python ... ```.

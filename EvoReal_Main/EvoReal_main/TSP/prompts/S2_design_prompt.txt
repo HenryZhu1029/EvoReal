@@ -1,0 +1,12 @@
+Design Guidance for S2-Type Instance Generators:
+
+-Focus on generating point distributions that exhibit regionally concentrated patterns while maintaining a clear global structural form. Points in the distributions should exhibit weak clustering or no clustering at all--strive for layouts where no subset of points forms a noticeably denser region than the rest.
+- Emphasize rectangular, grid-like, or lattice arrangements where points are evenly space--while preserving a clear rectangular boundary and balanced spatial distribution. Let local features reflect repetitive arrangements, subtle edge alignment, or banded intensity. Encourage patterns where all points have similar local neighborhood density.
+-While geometric regularity is desirable, allow moderate randomness to preserve variability across instances(e.g. use jitter). 
+-Prioritize formations where peripheral structure (e.g., sharper boundaries, directional concentration) enhances overall distribution clarity. 
+-Encourage diversity in how substructures emerge and interact (e.g. a few linear fragments or mild strips) without rigidly following predefined rules. Those substructures can either lie on the peripheral of the dense region or lie inside the dense region.
+-Avoid overly sparse or purely random layouts, and instead aim for configurations that suggest modular, repeatable architectural motifs blended with naturalistic variation.
+
+
+
+

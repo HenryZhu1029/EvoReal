@@ -1,0 +1,401 @@
+{
+  "per_problem_gaps": {
+    "a280": {
+      "problem_size": 280.0,
+      "Opt": 2579.0,
+      "aug_score_real": 2623.820266723631,
+      "non_aug_score_real": 2623.820266723631,
+      "aug_gap": 0.01737893242482799,
+      "non_aug_gap": 0.01737893242482799
+    },
+    "bier127": {
+      "problem_size": 127.0,
+      "Opt": 118282.0,
+      "aug_score_real": 120608.68138504021,
+      "non_aug_score_real": 120608.68138504021,
+      "aug_gap": 0.019670629386045347,
+      "non_aug_gap": 0.019670629386045347
+    },
+    "ch130": {
+      "problem_size": 130.0,
+      "Opt": 6110.0,
+      "aug_score_real": 6125.371281422361,
+      "non_aug_score_real": 6125.371281422361,
+      "aug_gap": 0.0025157580069330894,
+      "non_aug_gap": 0.0025157580069330894
+    },
+    "ch150": {
+      "problem_size": 150.0,
+      "Opt": 6528.0,
+      "aug_score_real": 6567.689281222654,
+      "non_aug_score_real": 6567.689281222654,
+      "aug_gap": 0.006079853128470358,
+      "non_aug_gap": 0.006079853128470358
+    },
+    "d1291": {
+      "problem_size": 1291.0,
+      "Opt": 50801.0,
+      "aug_score_real": 67264.98965835552,
+      "non_aug_score_real": 68680.7563018797,
+      "aug_gap": 0.32408790493012984,
+      "non_aug_gap": 0.3519567784468749
+    },
+    "d198": {
+      "problem_size": 198.0,
+      "Opt": 15780.0,
+      "aug_score_real": 15971.248732686034,
+      "non_aug_score_real": 15971.248732686034,
+      "aug_gap": 0.012119691551713174,
+      "non_aug_gap": 0.012119691551713174
+    },
+    "d493": {
+      "problem_size": 493.0,
+      "Opt": 35002.0,
+      "aug_score_real": 36481.38309631348,
+      "non_aug_score_real": 36481.38309631348,
+      "aug_gap": 0.04226567328476888,
+      "non_aug_gap": 0.04226567328476888
+    },
+    "d657": {
+      "problem_size": 657.0,
+      "Opt": 48912.0,
+      "aug_score_real": 51403.529370117096,
+      "non_aug_score_real": 51403.529370117096,
+      "aug_gap": 0.05093902048816437,
+      "non_aug_gap": 0.05093902048816437
+    },
+    "eil101": {
+      "problem_size": 101.0,
+      "Opt": 629.0,
+      "aug_score_real": 643.2445850372314,
+      "non_aug_score_real": 643.2445850372314,
+      "aug_gap": 0.022646399105296415,
+      "non_aug_gap": 0.022646399105296415
+    },
+    "eil51": {
+      "problem_size": 51.0,
+      "Opt": 426.0,
+      "aug_score_real": 430.74643421173107,
+      "non_aug_score_real": 430.74643421173107,
+      "aug_gap": 0.011141864346786556,
+      "non_aug_gap": 0.011141864346786556
+    },
+    "fl417": {
+      "problem_size": 417.0,
+      "Opt": 11861.0,
+      "aug_score_real": 12377.032544468877,
+      "non_aug_score_real": 12377.032544468877,
+      "aug_gap": 0.04350666423310654,
+      "non_aug_gap": 0.04350666423310654
+    },
+    "gil262": {
+      "problem_size": 262.0,
+      "Opt": 2378.0,
+      "aug_score_real": 2408.989299774172,
+      "non_aug_score_real": 2408.989299774172,
+      "aug_gap": 0.013031665169962995,
+      "non_aug_gap": 0.013031665169962995
+    },
+    "kroA100": {
+      "problem_size": 100.0,
+      "Opt": 21282.0,
+      "aug_score_real": 21418.30966186524,
+      "non_aug_score_real": 21420.588134765632,
+      "aug_gap": 0.006404927256143249,
+      "non_aug_gap": 0.006511988288959274
+    },
+    "kroA150": {
+      "problem_size": 150.0,
+      "Opt": 26524.0,
+      "aug_score_real": 26692.363180160508,
+      "non_aug_score_real": 26692.363180160508,
+      "aug_gap": 0.006347578802613014,
+      "non_aug_gap": 0.006347578802613014
+    },
+    "kroA200": {
+      "problem_size": 200.0,
+      "Opt": 29368.0,
+      "aug_score_real": 29543.796762466405,
+      "non_aug_score_real": 29543.796762466405,
+      "aug_gap": 0.005985997087524103,
+      "non_aug_gap": 0.005985997087524103
+    },
+    "kroB100": {
+      "problem_size": 100.0,
+      "Opt": 22141.0,
+      "aug_score_real": 22440.89810132979,
+      "non_aug_score_real": 22440.89810132979,
+      "aug_gap": 0.013544921246998335,
+      "non_aug_gap": 0.013544921246998335
+    },
+    "kroB150": {
+      "problem_size": 150.0,
+      "Opt": 26130.0,
+      "aug_score_real": 26331.59767389298,
+      "non_aug_score_real": 26331.59767389298,
+      "aug_gap": 0.007715180784270147,
+      "non_aug_gap": 0.007715180784270147
+    },
+    "kroB200": {
+      "problem_size": 200.0,
+      "Opt": 29437.0,
+      "aug_score_real": 29876.859863758084,
+      "non_aug_score_real": 29876.859863758084,
+      "aug_gap": 0.014942414775897174,
+      "non_aug_gap": 0.014942414775897174
+    },
+    "kroC100": {
+      "problem_size": 100.0,
+      "Opt": 20749.0,
+      "aug_score_real": 20852.277445793163,
+      "non_aug_score_real": 20852.277445793163,
+      "aug_gap": 0.004977466181173094,
+      "non_aug_gap": 0.004977466181173094
+    },
+    "kroD100": {
+      "problem_size": 100.0,
+      "Opt": 21294.0,
+      "aug_score_real": 21742.459059238423,
+      "non_aug_score_real": 21742.459059238423,
+      "aug_gap": 0.021060348419198946,
+      "non_aug_gap": 0.021060348419198946
+    },
+    "kroE100": {
+      "problem_size": 100.0,
+      "Opt": 22068.0,
+      "aug_score_real": 22419.661823272723,
+      "non_aug_score_real": 22419.661823272723,
+      "aug_gap": 0.015935373539637643,
+      "non_aug_gap": 0.015935373539637643
+    },
+    "lin105": {
+      "problem_size": 105.0,
+      "Opt": 14379.0,
+      "aug_score_real": 14490.332611083977,
+      "non_aug_score_real": 14490.332611083977,
+      "aug_gap": 0.007742722796020376,
+      "non_aug_gap": 0.007742722796020376
+    },
+    "lin318": {
+      "problem_size": 318.0,
+      "Opt": 42029.0,
+      "aug_score_real": 43196.45528411851,
+      "non_aug_score_real": 43196.45528411851,
+      "aug_gap": 0.02777737476786294,
+      "non_aug_gap": 0.02777737476786294
+    },
+    "p654": {
+      "problem_size": 654.0,
+      "Opt": 34643.0,
+      "aug_score_real": 36803.6033177376,
+      "non_aug_score_real": 36803.6033177376,
+      "aug_gap": 0.06236767363500852,
+      "non_aug_gap": 0.06236767363500852
+    },
+    "pcb1173": {
+      "problem_size": 1173.0,
+      "Opt": 56892.0,
+      "aug_score_real": 73265.67311668412,
+      "non_aug_score_real": 75280.78595352189,
+      "aug_gap": 0.2878027335422225,
+      "non_aug_gap": 0.3232227018477448
+    },
+    "pcb442": {
+      "problem_size": 442.0,
+      "Opt": 50778.0,
+      "aug_score_real": 53173.49071502673,
+      "non_aug_score_real": 53173.49071502673,
+      "aug_gap": 0.04717575948297939,
+      "non_aug_gap": 0.04717575948297939
+    },
+    "pr1002": {
+      "problem_size": 1002.0,
+      "Opt": 259045.0,
+      "aug_score_real": 315390.31639099045,
+      "non_aug_score_real": 317319.8410034172,
+      "aug_gap": 0.21751169252828836,
+      "non_aug_gap": 0.2249603003471104
+    },
+    "pr107": {
+      "problem_size": 107.0,
+      "Opt": 44303.0,
+      "aug_score_real": 44472.09370136258,
+      "non_aug_score_real": 44472.09370136258,
+      "aug_gap": 0.0038167551037757174,
+      "non_aug_gap": 0.0038167551037757174
+    },
+    "pr136": {
+      "problem_size": 136.0,
+      "Opt": 96772.0,
+      "aug_score_real": 97383.66394042966,
+      "non_aug_score_real": 97383.66394042966,
+      "aug_gap": 0.006320670652974531,
+      "non_aug_gap": 0.006320670652974531
+    },
+    "pr144": {
+      "problem_size": 144.0,
+      "Opt": 58537.0,
+      "aug_score_real": 58604.907310009025,
+      "non_aug_score_real": 58604.907310009025,
+      "aug_gap": 0.0011600749954561998,
+      "non_aug_gap": 0.0011600749954561998
+    },
+    "pr152": {
+      "problem_size": 152.0,
+      "Opt": 73682.0,
+      "aug_score_real": 74267.26119518284,
+      "non_aug_score_real": 74267.26119518284,
+      "aug_gap": 0.007943068798116923,
+      "non_aug_gap": 0.007943068798116923
+    },
+    "pr226": {
+      "problem_size": 226.0,
+      "Opt": 80369.0,
+      "aug_score_real": 81181.2751293183,
+      "non_aug_score_real": 81181.2751293183,
+      "aug_gap": 0.010106821402758464,
+      "non_aug_gap": 0.010106821402758464
+    },
+    "pr264": {
+      "problem_size": 264.0,
+      "Opt": 49135.0,
+      "aug_score_real": 49749.64833259583,
+      "non_aug_score_real": 49749.64833259583,
+      "aug_gap": 0.012509378907007863,
+      "non_aug_gap": 0.012509378907007863
+    },
+    "pr299": {
+      "problem_size": 299.0,
+      "Opt": 48191.0,
+      "aug_score_real": 48863.73039436337,
+      "non_aug_score_real": 48863.73039436337,
+      "aug_gap": 0.01395966870086465,
+      "non_aug_gap": 0.01395966870086465
+    },
+    "pr439": {
+      "problem_size": 439.0,
+      "Opt": 107217.0,
+      "aug_score_real": 109918.65019798286,
+      "non_aug_score_real": 109918.65019798286,
+      "aug_gap": 0.02519796485615952,
+      "non_aug_gap": 0.02519796485615952
+    },
+    "rat195": {
+      "problem_size": 195.0,
+      "Opt": 2323.0,
+      "aug_score_real": 2403.7206010818463,
+      "non_aug_score_real": 2403.7206010818463,
+      "aug_gap": 0.03474842922162992,
+      "non_aug_gap": 0.03474842922162992
+    },
+    "rat575": {
+      "problem_size": 575.0,
+      "Opt": 6773.0,
+      "aug_score_real": 7135.519735336288,
+      "non_aug_score_real": 7135.519735336288,
+      "aug_gap": 0.053524248536289405,
+      "non_aug_gap": 0.053524248536289405
+    },
+    "rat783": {
+      "problem_size": 783.0,
+      "Opt": 8806.0,
+      "aug_score_real": 9573.162952423061,
+      "non_aug_score_real": 9573.162952423061,
+      "aug_gap": 0.08711820945072249,
+      "non_aug_gap": 0.08711820945072249
+    },
+    "rat99": {
+      "problem_size": 99.0,
+      "Opt": 1211.0,
+      "aug_score_real": 1236.2731046676638,
+      "non_aug_score_real": 1236.2731046676638,
+      "aug_gap": 0.02086961574538715,
+      "non_aug_gap": 0.02086961574538715
+    },
+    "rd100": {
+      "problem_size": 100.0,
+      "Opt": 7910.0,
+      "aug_score_real": 7911.303858723791,
+      "non_aug_score_real": 7911.303858723791,
+      "aug_gap": 0.00016483675395587158,
+      "non_aug_gap": 0.00016483675395587158
+    },
+    "rd400": {
+      "problem_size": 400.0,
+      "Opt": 15281.0,
+      "aug_score_real": 15660.816166221433,
+      "non_aug_score_real": 15660.816166221433,
+      "aug_gap": 0.02485545227546853,
+      "non_aug_gap": 0.02485545227546853
+    },
+    "ts225": {
+      "problem_size": 225.0,
+      "Opt": 126643.0,
+      "aug_score_real": 127482.58209228556,
+      "non_aug_score_real": 127482.58209228556,
+      "aug_gap": 0.006629518349103828,
+      "non_aug_gap": 0.006629518349103828
+    },
+    "tsp225": {
+      "problem_size": 225.0,
+      "Opt": 3919.0,
+      "aug_score_real": 3990.1509103775034,
+      "non_aug_score_real": 3990.1509103775034,
+      "aug_gap": 0.018155373916178528,
+      "non_aug_gap": 0.018155373916178528
+    },
+    "u1060": {
+      "problem_size": 1060.0,
+      "Opt": 224094.0,
+      "aug_score_real": 279812.7587614066,
+      "non_aug_score_real": 296739.1170855052,
+      "aug_gap": 0.2486401187064651,
+      "non_aug_gap": 0.32417252173420624
+    },
+    "u159": {
+      "problem_size": 159.0,
+      "Opt": 42080.0,
+      "aug_score_real": 42423.91586303712,
+      "non_aug_score_real": 42423.91586303712,
+      "aug_gap": 0.008172905490425866,
+      "non_aug_gap": 0.008172905490425866
+    },
+    "u574": {
+      "problem_size": 574.0,
+      "Opt": 36905.0,
+      "aug_score_real": 38488.73075717926,
+      "non_aug_score_real": 38488.73075717926,
+      "aug_gap": 0.04291371784796808,
+      "non_aug_gap": 0.04291371784796808
+    },
+    "u724": {
+      "problem_size": 724.0,
+      "Opt": 41910.0,
+      "aug_score_real": 43950.71623546609,
+      "non_aug_score_real": 43950.71623546609,
+      "aug_gap": 0.048692823561586586,
+      "non_aug_gap": 0.048692823561586586
+    },
+    "vm1084": {
+      "problem_size": 1084.0,
+      "Opt": 239297.0,
+      "aug_score_real": 292944.75830078166,
+      "non_aug_score_real": 295540.73168945353,
+      "aug_gap": 0.2241890132378662,
+      "non_aug_gap": 0.2350373455975359
+    }
+  },
+  "avg_gap_result": {
+    "avg_aug_gap_all": 0.04609093515442095,
+    "avg_non_aug_gap_all": 0.0493664611140317,
+    "avg_aug_gap_0_200": 0.010959048696046454,
+    "avg_non_aug_gap_0_200": 0.010963915106628998,
+    "avg_aug_gap_200_500": 0.021565243975631424,
+    "avg_non_aug_gap_200_500": 0.021565243975631424,
+    "avg_aug_gap_500_1000": 0.05759261558662324,
+    "avg_non_aug_gap_500_1000": 0.05759261558662324,
+    "avg_aug_gap_1000_5000": 0.26044629258899443,
+    "avg_non_aug_gap_1000_5000": 0.29186992959469443
+  },
+  "count": 48
+}

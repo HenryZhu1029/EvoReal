@@ -1,0 +1,20 @@
+### Problem Description:
+{problem_desc}
+
+### Function Description:
+{func_desc}
+### Function Signature:
+{func_signature}
+
+Below are two versions of the `{func_name}` function. The second version yields better performance than the first.
+
+[Worse Code]
+{worse_code}
+
+[Better Code]
+{better_code}
+
+### Instruction:
+Analyze the difference between the two versions and identify actionable insights about effective function design. Focus on design mistakes or missed opportunities in the first version, and improvements in the second(basically what makes the second version better). Do not repeat instructions already present in the generation prompt. Keep your reflection under 100 words.
+
+

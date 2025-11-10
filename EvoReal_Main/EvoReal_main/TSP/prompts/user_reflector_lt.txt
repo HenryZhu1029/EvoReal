@@ -1,0 +1,14 @@
+### Problem Description:
+{problem_desc}
+
+### Prior Reflections:
+The following summarizes earlier observations and lessons on designing effective heuristics:
+{prior_reflection}
+
+### New Insights:
+The following are newly gained observations from recent iterations:
+{new_reflection}
+
+### Instruction:
+Write a concise synthesis of what works and what does not in the evolving designs. Emphasize persistent patterns, effective heuristics, and pitfalls to avoid. Do not repeat template-style constraints from generation prompts. Keep your summary actionable and under 200 words.
+

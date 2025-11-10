@@ -1,0 +1,427 @@
+[2025-07-04 14:54:16] test_TSPlib.py(138) : DEBUG_MODE: False
+[2025-07-04 14:54:16] test_TSPlib.py(139) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-07-04 14:54:16] test_TSPlib.py(140) : env_params{'mode': 'test', 'test_in_tsplib': True, 'tsplib_path': '/home/joey/zjh/LEHD_TSP_p2/TSP/data/TSPlib_70instances.txt', 'data_path': '/home/joey/zjh/LEHD_TSP_p2/TSP/data/TSPlib_70instances.txt', 'sub_path': False, 'RRC_budget': 0}
+[2025-07-04 14:54:16] test_TSPlib.py(140) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512}
+[2025-07-04 14:54:16] test_TSPlib.py(140) : tester_params{'use_cuda': True, 'cuda_device_num': 1, 'test_episodes': 70, 'test_batch_size': 1, 'model_load': {'path': 'result/p2-checkpoints', 'epoch': 3}}
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(196) : greedy, name:['a280'], gap:1.810304 %,  Elapsed[0.02m], stu_l:2625.687744 , opt_l:2579.000000
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, nan,num problems:0
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.018103041543476153,num problems:1
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(107) : episode   1/ 70, Elapsed[0.02m], Remain[1.30m], Score_teacher:2579.0000,Score_studetnt: 2625.6877,
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(196) : greedy, name:['berlin52'], gap:0.035297 %,  Elapsed[0.02m], stu_l:7544.662109 , opt_l:7542.000000
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.0003529712775125961,num problems:1
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.018103041543476153,num problems:1
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(107) : episode   2/ 70, Elapsed[0.02m], Remain[0.73m], Score_teacher:7542.0000,Score_studetnt: 7544.6621,
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(196) : greedy, name:['bier127'], gap:2.722915 %,  Elapsed[0.03m], stu_l:121502.718750 , opt_l:118282.000000
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.01379106245517807,num problems:2
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.018103041543476153,num problems:1
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:17] TSPTester_inTSPlib.py(107) : episode   3/ 70, Elapsed[0.03m], Remain[0.62m], Score_teacher:118282.0000,Score_studetnt: 121502.7188,
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(196) : greedy, name:['ch130'], gap:1.480475 %,  Elapsed[0.03m], stu_l:6200.457031 , opt_l:6110.000000
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014128958780811567,num problems:3
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.018103041543476153,num problems:1
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(107) : episode   4/ 70, Elapsed[0.03m], Remain[0.57m], Score_teacher:6110.0000,Score_studetnt: 6200.4570,
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(196) : greedy, name:['ch150'], gap:2.815037 %,  Elapsed[0.04m], stu_l:6711.765625 , opt_l:6528.000000
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.017634311954787596,num problems:4
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.018103041543476153,num problems:1
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:18] TSPTester_inTSPlib.py(107) : episode   5/ 70, Elapsed[0.04m], Remain[0.54m], Score_teacher:6528.0000,Score_studetnt: 6711.7656,
+[2025-07-04 14:54:19] TSPTester_inTSPlib.py(196) : greedy, name:['d198'], gap:5.064980 %,  Elapsed[0.05m], stu_l:16579.253906 , opt_l:15780.000000
+[2025-07-04 14:54:19] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.02423741035280346,num problems:5
+[2025-07-04 14:54:19] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.018103041543476153,num problems:1
+[2025-07-04 14:54:19] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:19] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:19] TSPTester_inTSPlib.py(107) : episode   6/ 70, Elapsed[0.05m], Remain[0.55m], Score_teacher:15780.0000,Score_studetnt: 16579.2539,
+[2025-07-04 14:54:20] TSPTester_inTSPlib.py(196) : greedy, name:['d493'], gap:4.216880 %,  Elapsed[0.08m], stu_l:36477.992188 , opt_l:35002.000000
+[2025-07-04 14:54:20] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.02423741035280346,num problems:5
+[2025-07-04 14:54:20] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:20] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:20] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:20] TSPTester_inTSPlib.py(107) : episode   7/ 70, Elapsed[0.08m], Remain[0.70m], Score_teacher:35002.0000,Score_studetnt: 36477.9922,
+[2025-07-04 14:54:22] TSPTester_inTSPlib.py(196) : greedy, name:['d657'], gap:6.126213 %,  Elapsed[0.11m], stu_l:51908.453125 , opt_l:48912.000000
+[2025-07-04 14:54:22] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.02423741035280346,num problems:5
+[2025-07-04 14:54:22] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:22] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:22] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, nan,num problems:0
+[2025-07-04 14:54:22] TSPTester_inTSPlib.py(107) : episode   8/ 70, Elapsed[0.11m], Remain[0.86m], Score_teacher:48912.0000,Score_studetnt: 51908.4531,
+[2025-07-04 14:54:27] TSPTester_inTSPlib.py(196) : greedy, name:['d1291'], gap:8.659632 %,  Elapsed[0.19m], stu_l:55200.179688 , opt_l:50801.000000
+[2025-07-04 14:54:27] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.02423741035280346,num problems:5
+[2025-07-04 14:54:27] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:27] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:27] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.08659632069250606,num problems:1
+[2025-07-04 14:54:27] TSPTester_inTSPlib.py(107) : episode   9/ 70, Elapsed[0.19m], Remain[1.31m], Score_teacher:50801.0000,Score_studetnt: 55200.1797,
+[2025-07-04 14:54:36] TSPTester_inTSPlib.py(196) : greedy, name:['d1655'], gap:7.478701 %,  Elapsed[0.33m], stu_l:66774.367188 , opt_l:62128.000000
+[2025-07-04 14:54:36] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.02423741035280346,num problems:5
+[2025-07-04 14:54:36] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:36] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:36] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.08069166397988037,num problems:2
+[2025-07-04 14:54:36] TSPTester_inTSPlib.py(107) : episode  10/ 70, Elapsed[0.33m], Remain[1.98m], Score_teacher:62128.0000,Score_studetnt: 66774.3672,
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(196) : greedy, name:['d2103'], gap:7.697959 %,  Elapsed[0.56m], stu_l:86643.007812 , opt_l:80450.000000
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.02423741035280346,num problems:5
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07945430514548478,num problems:3
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(107) : episode  11/ 70, Elapsed[0.56m], Remain[2.98m], Score_teacher:80450.0000,Score_studetnt: 86643.0078,
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(196) : greedy, name:['eil51'], gap:2.333671 %,  Elapsed[0.56m], stu_l:435.941437 , opt_l:426.000000
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.024087292965199333,num problems:6
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07945430514548478,num problems:3
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(107) : episode  12/ 70, Elapsed[0.56m], Remain[2.70m], Score_teacher:426.0000,Score_studetnt: 435.9414,
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(196) : greedy, name:['eil76'], gap:2.965537 %,  Elapsed[0.56m], stu_l:553.954590 , opt_l:538.000000
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.024882732749711485,num problems:7
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07945430514548478,num problems:3
+[2025-07-04 14:54:49] TSPTester_inTSPlib.py(107) : episode  13/ 70, Elapsed[0.56m], Remain[2.46m], Score_teacher:538.0000,Score_studetnt: 553.9546,
+[2025-07-04 14:54:50] TSPTester_inTSPlib.py(196) : greedy, name:['eil101'], gap:4.095702 %,  Elapsed[0.57m], stu_l:654.761963 , opt_l:629.000000
+[2025-07-04 14:54:50] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.026892018121543057,num problems:8
+[2025-07-04 14:54:50] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030135918627574886,num problems:2
+[2025-07-04 14:54:50] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:50] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07945430514548478,num problems:3
+[2025-07-04 14:54:50] TSPTester_inTSPlib.py(107) : episode  14/ 70, Elapsed[0.57m], Remain[2.27m], Score_teacher:629.0000,Score_studetnt: 654.7620,
+[2025-07-04 14:54:51] TSPTester_inTSPlib.py(196) : greedy, name:['fl417'], gap:4.325231 %,  Elapsed[0.59m], stu_l:12374.015625 , opt_l:11861.000000
+[2025-07-04 14:54:51] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.026892018121543057,num problems:8
+[2025-07-04 14:54:51] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.03450804841309984,num problems:3
+[2025-07-04 14:54:51] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:51] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07945430514548478,num problems:3
+[2025-07-04 14:54:51] TSPTester_inTSPlib.py(107) : episode  15/ 70, Elapsed[0.59m], Remain[2.15m], Score_teacher:11861.0000,Score_studetnt: 12374.0156,
+[2025-07-04 14:54:57] TSPTester_inTSPlib.py(196) : greedy, name:['fl1400'], gap:8.800290 %,  Elapsed[0.68m], stu_l:21898.234375 , opt_l:20127.000000
+[2025-07-04 14:54:57] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.026892018121543057,num problems:8
+[2025-07-04 14:54:57] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.03450804841309984,num problems:3
+[2025-07-04 14:54:57] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:54:57] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.08159145394233512,num problems:4
+[2025-07-04 14:54:57] TSPTester_inTSPlib.py(107) : episode  16/ 70, Elapsed[0.68m], Remain[2.31m], Score_teacher:20127.0000,Score_studetnt: 21898.2344,
+[2025-07-04 14:55:04] TSPTester_inTSPlib.py(196) : greedy, name:['fl1577'], gap:3.078070 %,  Elapsed[0.81m], stu_l:22933.839844 , opt_l:22249.000000
+[2025-07-04 14:55:04] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.026892018121543057,num problems:8
+[2025-07-04 14:55:04] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.03450804841309984,num problems:3
+[2025-07-04 14:55:04] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:04] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:04] TSPTester_inTSPlib.py(107) : episode  17/ 70, Elapsed[0.81m], Remain[2.52m], Score_teacher:22249.0000,Score_studetnt: 22933.8398,
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(196) : greedy, name:['gil262'], gap:1.983083 %,  Elapsed[0.82m], stu_l:2425.157715 , opt_l:2378.000000
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.026892018121543057,num problems:8
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(107) : episode  18/ 70, Elapsed[0.82m], Remain[2.37m], Score_teacher:2378.0000,Score_studetnt: 2425.1577,
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(196) : greedy, name:['kroA100'], gap:0.016180 %,  Elapsed[0.83m], stu_l:21285.443359 , opt_l:21282.000000
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.023921993529620413,num problems:9
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:05] TSPTester_inTSPlib.py(107) : episode  19/ 70, Elapsed[0.83m], Remain[2.22m], Score_teacher:21282.0000,Score_studetnt: 21285.4434,
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(196) : greedy, name:['kroB100'], gap:0.576684 %,  Elapsed[0.83m], stu_l:22268.683594 , opt_l:22141.000000
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.0221064781283769,num problems:10
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(107) : episode  20/ 70, Elapsed[0.83m], Remain[2.08m], Score_teacher:22141.0000,Score_studetnt: 22268.6836,
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(196) : greedy, name:['kroC100'], gap:0.660348 %,  Elapsed[0.84m], stu_l:20886.015625 , opt_l:20749.000000
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.02069711474312858,num problems:11
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(107) : episode  21/ 70, Elapsed[0.84m], Remain[1.95m], Score_teacher:20749.0000,Score_studetnt: 20886.0156,
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(196) : greedy, name:['kroD100'], gap:0.823442 %,  Elapsed[0.84m], stu_l:21469.343750 , opt_l:21294.000000
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.01965855688903752,num problems:12
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:06] TSPTester_inTSPlib.py(107) : episode  22/ 70, Elapsed[0.84m], Remain[1.84m], Score_teacher:21294.0000,Score_studetnt: 21469.3438,
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(196) : greedy, name:['kroE100'], gap:0.068680 %,  Elapsed[0.85m], stu_l:22083.156250 , opt_l:22068.000000
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.018199190791843952,num problems:13
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(107) : episode  23/ 70, Elapsed[0.85m], Remain[1.73m], Score_teacher:22068.0000,Score_studetnt: 22083.1562,
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(196) : greedy, name:['kroA150'], gap:0.591637 %,  Elapsed[0.85m], stu_l:26680.925781 , opt_l:26524.000000
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.017321846404785145,num problems:14
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:07] TSPTester_inTSPlib.py(107) : episode  24/ 70, Elapsed[0.85m], Remain[1.64m], Score_teacher:26524.0000,Score_studetnt: 26680.9258,
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(196) : greedy, name:['kroB150'], gap:0.355390 %,  Elapsed[0.86m], stu_l:26222.863281 , opt_l:26130.000000
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.01640398299030106,num problems:15
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.030838743925862513,num problems:4
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(107) : episode  25/ 70, Elapsed[0.86m], Remain[1.55m], Score_teacher:26130.0000,Score_studetnt: 26222.8633,
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(196) : greedy, name:['kroA200'], gap:0.310466 %,  Elapsed[0.87m], stu_l:29459.177734 , opt_l:29368.000000
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.01640398299030106,num problems:15
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.025291927682061573,num problems:5
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:08] TSPTester_inTSPlib.py(107) : episode  26/ 70, Elapsed[0.87m], Remain[1.48m], Score_teacher:29368.0000,Score_studetnt: 29459.1777,
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(196) : greedy, name:['kroB200'], gap:0.047539 %,  Elapsed[0.88m], stu_l:29450.994141 , opt_l:29437.000000
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.01640398299030106,num problems:15
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.021155838550742448,num problems:6
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(107) : episode  27/ 70, Elapsed[0.88m], Remain[1.40m], Score_teacher:29437.0000,Score_studetnt: 29450.9941,
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(196) : greedy, name:['lin105'], gap:0.342704 %,  Elapsed[0.89m], stu_l:14428.277344 , opt_l:14379.000000
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.015592923773441672,num problems:16
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.021155838550742448,num problems:6
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:09] TSPTester_inTSPlib.py(107) : episode  28/ 70, Elapsed[0.89m], Remain[1.33m], Score_teacher:14379.0000,Score_studetnt: 14428.2773,
+[2025-07-04 14:55:10] TSPTester_inTSPlib.py(196) : greedy, name:['lin318'], gap:1.307886 %,  Elapsed[0.90m], stu_l:42578.691406 , opt_l:42029.000000
+[2025-07-04 14:55:10] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.015592923773441672,num problems:16
+[2025-07-04 14:55:10] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.020001984469719635,num problems:7
+[2025-07-04 14:55:10] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:10] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.07142930359838245,num problems:5
+[2025-07-04 14:55:10] TSPTester_inTSPlib.py(107) : episode  29/ 70, Elapsed[0.90m], Remain[1.28m], Score_teacher:42029.0000,Score_studetnt: 42578.6914,
+[2025-07-04 14:55:16] TSPTester_inTSPlib.py(196) : greedy, name:['nrw1379'], gap:5.581783 %,  Elapsed[1.00m], stu_l:59799.410156 , opt_l:56638.000000
+[2025-07-04 14:55:16] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.015592923773441672,num problems:16
+[2025-07-04 14:55:16] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.020001984469719635,num problems:7
+[2025-07-04 14:55:16] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.061262126369807,num problems:1
+[2025-07-04 14:55:16] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06882739103980816,num problems:6
+[2025-07-04 14:55:16] TSPTester_inTSPlib.py(107) : episode  30/ 70, Elapsed[1.00m], Remain[1.33m], Score_teacher:56638.0000,Score_studetnt: 59799.4102,
+[2025-07-04 14:55:18] TSPTester_inTSPlib.py(196) : greedy, name:['p654'], gap:3.223753 %,  Elapsed[1.03m], stu_l:35759.804688 , opt_l:34643.000000
+[2025-07-04 14:55:18] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.015592923773441672,num problems:16
+[2025-07-04 14:55:18] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.020001984469719635,num problems:7
+[2025-07-04 14:55:18] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:18] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06882739103980816,num problems:6
+[2025-07-04 14:55:18] TSPTester_inTSPlib.py(107) : episode  31/ 70, Elapsed[1.03m], Remain[1.30m], Score_teacher:34643.0000,Score_studetnt: 35759.8047,
+[2025-07-04 14:55:19] TSPTester_inTSPlib.py(196) : greedy, name:['pcb442'], gap:1.588794 %,  Elapsed[1.05m], stu_l:51584.757812 , opt_l:50778.000000
+[2025-07-04 14:55:19] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.015592923773441672,num problems:16
+[2025-07-04 14:55:19] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:19] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:19] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06882739103980816,num problems:6
+[2025-07-04 14:55:19] TSPTester_inTSPlib.py(107) : episode  32/ 70, Elapsed[1.05m], Remain[1.25m], Score_teacher:50778.0000,Score_studetnt: 51584.7578,
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(196) : greedy, name:['pcb1173'], gap:3.479853 %,  Elapsed[1.12m], stu_l:58871.757812 , opt_l:56892.000000
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.015592923773441672,num problems:16
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(107) : episode  33/ 70, Elapsed[1.12m], Remain[1.26m], Score_teacher:56892.0000,Score_studetnt: 58871.7578,
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(196) : greedy, name:['pr76'], gap:0.134474 %,  Elapsed[1.12m], stu_l:108304.445312 , opt_l:108159.000000
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014754795087127636,num problems:17
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:23] TSPTester_inTSPlib.py(107) : episode  34/ 70, Elapsed[1.12m], Remain[1.19m], Score_teacher:108159.0000,Score_studetnt: 108304.4453,
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(196) : greedy, name:['pr107'], gap:2.471792 %,  Elapsed[1.13m], stu_l:45398.078125 , opt_l:44303.000000
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.01530830217124156,num problems:18
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(107) : episode  35/ 70, Elapsed[1.13m], Remain[1.13m], Score_teacher:44303.0000,Score_studetnt: 45398.0781,
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(196) : greedy, name:['pr124'], gap:1.219553 %,  Elapsed[1.14m], stu_l:59749.902344 , opt_l:59030.000000
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.015144472242286267,num problems:19
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(107) : episode  36/ 70, Elapsed[1.14m], Remain[1.07m], Score_teacher:59030.0000,Score_studetnt: 59749.9023,
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(196) : greedy, name:['pr136'], gap:0.961167 %,  Elapsed[1.14m], stu_l:97702.140625 , opt_l:96772.000000
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014867832179649074,num problems:20
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:24] TSPTester_inTSPlib.py(107) : episode  37/ 70, Elapsed[1.14m], Remain[1.02m], Score_teacher:96772.0000,Score_studetnt: 97702.1406,
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(196) : greedy, name:['pr144'], gap:0.722420 %,  Elapsed[1.15m], stu_l:58959.882812 , opt_l:58537.000000
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014503849546117236,num problems:21
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(107) : episode  38/ 70, Elapsed[1.15m], Remain[0.97m], Score_teacher:58537.0000,Score_studetnt: 58959.8828,
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(196) : greedy, name:['pr152'], gap:0.884332 %,  Elapsed[1.16m], stu_l:74333.593750 , opt_l:73682.000000
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246552900176195,num problems:22
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019487728899139307,num problems:8
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:25] TSPTester_inTSPlib.py(107) : episode  39/ 70, Elapsed[1.16m], Remain[0.92m], Score_teacher:73682.0000,Score_studetnt: 74333.5938,
+[2025-07-04 14:55:26] TSPTester_inTSPlib.py(196) : greedy, name:['pr226'], gap:1.316068 %,  Elapsed[1.17m], stu_l:81426.710938 , opt_l:80369.000000
+[2025-07-04 14:55:26] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246552900176195,num problems:22
+[2025-07-04 14:55:26] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.018784723806801427,num problems:9
+[2025-07-04 14:55:26] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:26] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:26] TSPTester_inTSPlib.py(107) : episode  40/ 70, Elapsed[1.17m], Remain[0.88m], Score_teacher:80369.0000,Score_studetnt: 81426.7109,
+[2025-07-04 14:55:27] TSPTester_inTSPlib.py(196) : greedy, name:['pr264'], gap:6.040525 %,  Elapsed[1.18m], stu_l:52103.011719 , opt_l:49135.000000
+[2025-07-04 14:55:27] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246552900176195,num problems:22
+[2025-07-04 14:55:27] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022946775937671096,num problems:10
+[2025-07-04 14:55:27] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:27] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:27] TSPTester_inTSPlib.py(107) : episode  41/ 70, Elapsed[1.18m], Remain[0.84m], Score_teacher:49135.0000,Score_studetnt: 52103.0117,
+[2025-07-04 14:55:28] TSPTester_inTSPlib.py(196) : greedy, name:['pr299'], gap:0.807124 %,  Elapsed[1.20m], stu_l:48579.960938 , opt_l:48191.000000
+[2025-07-04 14:55:28] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246552900176195,num problems:22
+[2025-07-04 14:55:28] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.02159445413161469,num problems:11
+[2025-07-04 14:55:28] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:28] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:28] TSPTester_inTSPlib.py(107) : episode  42/ 70, Elapsed[1.20m], Remain[0.80m], Score_teacher:48191.0000,Score_studetnt: 48579.9609,
+[2025-07-04 14:55:29] TSPTester_inTSPlib.py(196) : greedy, name:['pr439'], gap:3.700833 %,  Elapsed[1.22m], stu_l:111184.921875 , opt_l:107217.000000
+[2025-07-04 14:55:29] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246552900176195,num problems:22
+[2025-07-04 14:55:29] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:29] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:29] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.06396612478460591,num problems:7
+[2025-07-04 14:55:29] TSPTester_inTSPlib.py(107) : episode  43/ 70, Elapsed[1.22m], Remain[0.77m], Score_teacher:107217.0000,Score_studetnt: 111184.9219,
+[2025-07-04 14:55:32] TSPTester_inTSPlib.py(196) : greedy, name:['pr1002'], gap:2.747375 %,  Elapsed[1.27m], stu_l:266161.937500 , opt_l:259045.000000
+[2025-07-04 14:55:32] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246552900176195,num problems:22
+[2025-07-04 14:55:32] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:32] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:32] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05940457790335544,num problems:8
+[2025-07-04 14:55:32] TSPTester_inTSPlib.py(107) : episode  44/ 70, Elapsed[1.27m], Remain[0.75m], Score_teacher:259045.0000,Score_studetnt: 266161.9375,
+[2025-07-04 14:55:50] TSPTester_inTSPlib.py(196) : greedy, name:['pr2392'], gap:5.510446 %,  Elapsed[1.58m], stu_l:398863.250000 , opt_l:378032.000000
+[2025-07-04 14:55:50] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246552900176195,num problems:22
+[2025-07-04 14:55:50] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:50] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:50] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05892678725366286,num problems:9
+[2025-07-04 14:55:50] TSPTester_inTSPlib.py(107) : episode  45/ 70, Elapsed[1.58m], Remain[0.88m], Score_teacher:378032.0000,Score_studetnt: 398863.2500,
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(196) : greedy, name:['rat99'], gap:0.884511 %,  Elapsed[1.58m], stu_l:1221.711426 , opt_l:1211.000000
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014011707469491408,num problems:23
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05892678725366286,num problems:9
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(107) : episode  46/ 70, Elapsed[1.58m], Remain[0.83m], Score_teacher:1211.0000,Score_studetnt: 1221.7114,
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(196) : greedy, name:['rat195'], gap:2.833450 %,  Elapsed[1.59m], stu_l:2388.821045 , opt_l:2323.000000
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014608490517099502,num problems:24
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.04674982725701042,num problems:2
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05892678725366286,num problems:9
+[2025-07-04 14:55:51] TSPTester_inTSPlib.py(107) : episode  47/ 70, Elapsed[1.59m], Remain[0.78m], Score_teacher:2323.0000,Score_studetnt: 2388.8210,
+[2025-07-04 14:55:53] TSPTester_inTSPlib.py(196) : greedy, name:['rat575'], gap:2.240874 %,  Elapsed[1.62m], stu_l:6924.774414 , opt_l:6773.000000
+[2025-07-04 14:55:53] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014608490517099502,num problems:24
+[2025-07-04 14:55:53] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:53] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.038636132392635615,num problems:3
+[2025-07-04 14:55:53] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05892678725366286,num problems:9
+[2025-07-04 14:55:53] TSPTester_inTSPlib.py(107) : episode  48/ 70, Elapsed[1.62m], Remain[0.74m], Score_teacher:6773.0000,Score_studetnt: 6924.7744,
+[2025-07-04 14:55:55] TSPTester_inTSPlib.py(196) : greedy, name:['rat783'], gap:2.467445 %,  Elapsed[1.66m], stu_l:9023.283203 , opt_l:8806.000000
+[2025-07-04 14:55:55] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014608490517099502,num problems:24
+[2025-07-04 14:55:55] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:55] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:55:55] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05892678725366286,num problems:9
+[2025-07-04 14:55:55] TSPTester_inTSPlib.py(107) : episode  49/ 70, Elapsed[1.66m], Remain[0.71m], Score_teacher:8806.0000,Score_studetnt: 9023.2832,
+[2025-07-04 14:55:56] TSPTester_inTSPlib.py(196) : greedy, name:['rd100'], gap:0.260882 %,  Elapsed[1.66m], stu_l:7930.635742 , opt_l:7910.000000
+[2025-07-04 14:55:56] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014128503574986951,num problems:25
+[2025-07-04 14:55:56] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.022878943598747287,num problems:12
+[2025-07-04 14:55:56] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:55:56] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05892678725366286,num problems:9
+[2025-07-04 14:55:56] TSPTester_inTSPlib.py(107) : episode  50/ 70, Elapsed[1.66m], Remain[0.67m], Score_teacher:7910.0000,Score_studetnt: 7930.6357,
+[2025-07-04 14:55:57] TSPTester_inTSPlib.py(196) : greedy, name:['rd400'], gap:1.667212 %,  Elapsed[1.68m], stu_l:15535.766602 , opt_l:15281.000000
+[2025-07-04 14:55:57] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014128503574986951,num problems:25
+[2025-07-04 14:55:57] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.02240149530665023,num problems:13
+[2025-07-04 14:55:57] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:55:57] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05892678725366286,num problems:9
+[2025-07-04 14:55:57] TSPTester_inTSPlib.py(107) : episode  51/ 70, Elapsed[1.68m], Remain[0.63m], Score_teacher:15281.0000,Score_studetnt: 15535.7666,
+[2025-07-04 14:56:02] TSPTester_inTSPlib.py(196) : greedy, name:['rl1304'], gap:3.575055 %,  Elapsed[1.77m], stu_l:261991.031250 , opt_l:252948.000000
+[2025-07-04 14:56:02] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014128503574986951,num problems:25
+[2025-07-04 14:56:02] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.02240149530665023,num problems:13
+[2025-07-04 14:56:02] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:56:02] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05660916397447524,num problems:10
+[2025-07-04 14:56:02] TSPTester_inTSPlib.py(107) : episode  52/ 70, Elapsed[1.77m], Remain[0.61m], Score_teacher:252948.0000,Score_studetnt: 261991.0312,
+[2025-07-04 14:56:07] TSPTester_inTSPlib.py(196) : greedy, name:['rl1323'], gap:2.402743 %,  Elapsed[1.86m], stu_l:276691.187500 , opt_l:270199.000000
+[2025-07-04 14:56:07] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014128503574986951,num problems:25
+[2025-07-04 14:56:07] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.02240149530665023,num problems:13
+[2025-07-04 14:56:07] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:56:07] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.053647188138907835,num problems:11
+[2025-07-04 14:56:07] TSPTester_inTSPlib.py(107) : episode  53/ 70, Elapsed[1.86m], Remain[0.60m], Score_teacher:270199.0000,Score_studetnt: 276691.1875,
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(196) : greedy, name:['rl1889'], gap:7.563891 %,  Elapsed[2.04m], stu_l:340478.437500 , opt_l:316536.000000
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014128503574986951,num problems:25
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.02240149530665023,num problems:13
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.055479831491549836,num problems:12
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(107) : episode  54/ 70, Elapsed[2.04m], Remain[0.60m], Score_teacher:316536.0000,Score_studetnt: 340478.4375,
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(196) : greedy, name:['st70'], gap:1.719962 %,  Elapsed[2.04m], stu_l:686.609741 , opt_l:675.000000
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246623307056542,num problems:26
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.02240149530665023,num problems:13
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.055479831491549836,num problems:12
+[2025-07-04 14:56:18] TSPTester_inTSPlib.py(107) : episode  55/ 70, Elapsed[2.04m], Remain[0.56m], Score_teacher:675.0000,Score_studetnt: 686.6097,
+[2025-07-04 14:56:19] TSPTester_inTSPlib.py(196) : greedy, name:['ts225'], gap:1.240421 %,  Elapsed[2.05m], stu_l:128213.906250 , opt_l:126643.000000
+[2025-07-04 14:56:19] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246623307056542,num problems:26
+[2025-07-04 14:56:19] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.02168740343302566,num problems:14
+[2025-07-04 14:56:19] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:56:19] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.055479831491549836,num problems:12
+[2025-07-04 14:56:19] TSPTester_inTSPlib.py(107) : episode  56/ 70, Elapsed[2.05m], Remain[0.51m], Score_teacher:126643.0000,Score_studetnt: 128213.9062,
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(196) : greedy, name:['tsp225'], gap:-0.622615 %,  Elapsed[2.07m], stu_l:3891.618408 , opt_l:3916.000000
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014246623307056542,num problems:26
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.055479831491549836,num problems:12
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(107) : episode  57/ 70, Elapsed[2.07m], Remain[0.47m], Score_teacher:3916.0000,Score_studetnt: 3891.6184,
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(196) : greedy, name:['u159'], gap:0.812209 %,  Elapsed[2.07m], stu_l:42421.777344 , opt_l:42080.000000
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03514571169298342,num problems:4
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.055479831491549836,num problems:12
+[2025-07-04 14:56:20] TSPTester_inTSPlib.py(107) : episode  58/ 70, Elapsed[2.07m], Remain[0.43m], Score_teacher:42080.0000,Score_studetnt: 42421.7773,
+[2025-07-04 14:56:22] TSPTester_inTSPlib.py(196) : greedy, name:['u574'], gap:3.362392 %,  Elapsed[2.10m], stu_l:38145.890625 , opt_l:36905.000000
+[2025-07-04 14:56:22] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:56:22] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:22] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.034841352581591725,num problems:5
+[2025-07-04 14:56:22] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.055479831491549836,num problems:12
+[2025-07-04 14:56:22] TSPTester_inTSPlib.py(107) : episode  59/ 70, Elapsed[2.10m], Remain[0.39m], Score_teacher:36905.0000,Score_studetnt: 38145.8906,
+[2025-07-04 14:56:24] TSPTester_inTSPlib.py(196) : greedy, name:['u724'], gap:2.958535 %,  Elapsed[2.14m], stu_l:43149.921875 , opt_l:41910.000000
+[2025-07-04 14:56:24] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:56:24] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:24] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:56:24] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.055479831491549836,num problems:12
+[2025-07-04 14:56:24] TSPTester_inTSPlib.py(107) : episode  60/ 70, Elapsed[2.14m], Remain[0.36m], Score_teacher:41910.0000,Score_studetnt: 43149.9219,
+[2025-07-04 14:56:28] TSPTester_inTSPlib.py(196) : greedy, name:['u1060'], gap:3.618836 %,  Elapsed[2.20m], stu_l:232203.593750 , opt_l:224094.000000
+[2025-07-04 14:56:28] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:56:28] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:28] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:56:28] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05399587194151645,num problems:13
+[2025-07-04 14:56:28] TSPTester_inTSPlib.py(107) : episode  61/ 70, Elapsed[2.20m], Remain[0.32m], Score_teacher:224094.0000,Score_studetnt: 232203.5938,
+[2025-07-04 14:56:34] TSPTester_inTSPlib.py(196) : greedy, name:['u1432'], gap:2.994940 %,  Elapsed[2.30m], stu_l:157551.359375 , opt_l:152970.000000
+[2025-07-04 14:56:34] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:56:34] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:34] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:56:34] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.052278266642674584,num problems:14
+[2025-07-04 14:56:34] TSPTester_inTSPlib.py(107) : episode  62/ 70, Elapsed[2.30m], Remain[0.30m], Score_teacher:152970.0000,Score_studetnt: 157551.3594,
+[2025-07-04 14:56:44] TSPTester_inTSPlib.py(196) : greedy, name:['u1817'], gap:5.398767 %,  Elapsed[2.47m], stu_l:60289.148438 , opt_l:57201.000000
+[2025-07-04 14:56:44] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:56:44] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:44] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:56:44] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05239222654695641,num problems:15
+[2025-07-04 14:56:44] TSPTester_inTSPlib.py(107) : episode  63/ 70, Elapsed[2.47m], Remain[0.27m], Score_teacher:57201.0000,Score_studetnt: 60289.1484,
+[2025-07-04 14:56:59] TSPTester_inTSPlib.py(196) : greedy, name:['u2152'], gap:5.570265 %,  Elapsed[2.72m], stu_l:67832.062500 , opt_l:64253.000000
+[2025-07-04 14:56:59] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:56:59] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:56:59] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:56:59] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05259912813878715,num problems:16
+[2025-07-04 14:56:59] TSPTester_inTSPlib.py(107) : episode  64/ 70, Elapsed[2.72m], Remain[0.26m], Score_teacher:64253.0000,Score_studetnt: 67832.0625,
+[2025-07-04 14:57:16] TSPTester_inTSPlib.py(196) : greedy, name:['u2319'], gap:1.858057 %,  Elapsed[3.01m], stu_l:238608.609375 , opt_l:234256.000000
+[2025-07-04 14:57:16] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:57:16] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:57:16] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:57:16] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05059803632513539,num problems:17
+[2025-07-04 14:57:16] TSPTester_inTSPlib.py(107) : episode  65/ 70, Elapsed[3.01m], Remain[0.23m], Score_teacher:234256.0000,Score_studetnt: 238608.6094,
+[2025-07-04 14:57:20] TSPTester_inTSPlib.py(196) : greedy, name:['vm1084'], gap:2.495748 %,  Elapsed[3.07m], stu_l:245269.250000 , opt_l:239297.000000
+[2025-07-04 14:57:20] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:57:20] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:57:20] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:57:20] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.04917356095248227,num problems:18
+[2025-07-04 14:57:20] TSPTester_inTSPlib.py(107) : episode  66/ 70, Elapsed[3.07m], Remain[0.19m], Score_teacher:239297.0000,Score_studetnt: 245269.2500,
+[2025-07-04 14:57:29] TSPTester_inTSPlib.py(196) : greedy, name:['vm1748'], gap:3.250592 %,  Elapsed[3.22m], stu_l:347496.062500 , opt_l:336556.000000
+[2025-07-04 14:57:29] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:57:29] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:57:29] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:57:29] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.04829631670566206,num problems:19
+[2025-07-04 14:57:29] TSPTester_inTSPlib.py(107) : episode  67/ 70, Elapsed[3.22m], Remain[0.14m], Score_teacher:336556.0000,Score_studetnt: 347496.0625,
+[2025-07-04 14:58:27] TSPTester_inTSPlib.py(196) : greedy, name:['fl3795'], gap:13.548288 %,  Elapsed[4.18m], stu_l:32670.113281 , opt_l:28772.000000
+[2025-07-04 14:58:27] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:58:27] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:58:27] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:58:27] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.052655644623420116,num problems:20
+[2025-07-04 14:58:27] TSPTester_inTSPlib.py(107) : episode  68/ 70, Elapsed[4.18m], Remain[0.12m], Score_teacher:28772.0000,Score_studetnt: 32670.1133,
+[2025-07-04 14:59:55] TSPTester_inTSPlib.py(196) : greedy, name:['fnl4461'], gap:7.084031 %,  Elapsed[5.65m], stu_l:195499.031250 , opt_l:182566.000000
+[2025-07-04 14:59:55] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 14:59:55] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 14:59:55] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 14:59:55] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05352158086505084,num problems:21
+[2025-07-04 14:59:55] TSPTester_inTSPlib.py(107) : episode  69/ 70, Elapsed[5.65m], Remain[0.08m], Score_teacher:182566.0000,Score_studetnt: 195499.0312,
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(196) : greedy, name:['pcb3038'], gap:5.706358 %,  Elapsed[6.19m], stu_l:145551.312500 , opt_l:137694.000000
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(93) : problems_0_200 mean gap:, 0.014019788561060433,num problems:27
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(94) : problems_200_500 mean gap:, 0.019826500068357573,num problems:15
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(95) : problems_500_1000 mean gap:, 0.03396535158065913,num problems:6
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(96) : problems_1000_5000 mean gap:, 0.05368258079782922,num problems:22
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(107) : episode  70/ 70, Elapsed[6.19m], Remain[0.00m], Score_teacher:137694.0000,Score_studetnt: 145551.3125,
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(121) :  *** Test Done *** 
+[2025-07-04 15:00:27] TSPTester_inTSPlib.py(124) :  Average Gap: 2.9439%

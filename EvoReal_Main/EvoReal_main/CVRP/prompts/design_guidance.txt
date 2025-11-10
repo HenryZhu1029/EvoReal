@@ -1,0 +1,33 @@
+You should design a customer postion generator that have more diverse generation methods and distributions than seed generators . For designing new `generate_customer_positions` function, you are encouraged to more customer postion distributions other than pure uniform distribution. For example, including exponential distribution, gaussian distributions, rotation distributions, explosion distributions, a mixtures of those distributions and etc. Generate at least two distributions in the customer postion generator. A example design is braketed in ```python code``` below: 
+```
+def generate_customer_positions(n, cust_type=None):
+    CUST_TYPES = ['P1', 'P2', 'P3']
+    if cust_type is None:
+        cust_type = random.choice(CUST_TYPES)
+    if cust_type == 'P1':
+        points = np.round(np.random.rand(n, 2), 3)
+        return ensure_n_unique_points(points, n)
+    elif cust_type == 'P2':
+        S = np.random.randint(3, 9)
+        centers = np.round(np.random.rand(S, 2), 3)
+        positions = [tuple(center) for center in centers]
+        while len(positions) < n:
+            pt = np.round(np.random.rand(2), 3)
+            dists = np.linalg.norm(centers - pt, axis=1)
+            prob = np.sum(np.exp(-dists / 0.04))
+            if np.random.rand() < prob:
+                positions.append(tuple(pt))
+        positions = np.unique(np.array(positions), axis=0)[:n]
+        return ensure_n_unique_points(positions, n)
+    elif cust_type == 'P3':
+        n_c = n // 2
+        n_r = n - n_c
+        clustered, _ = generate_customer_positions(n_c, 'P2')
+        randoms, _ = generate_customer_positions(n_r, 'P1')
+        positions = np.vstack([clustered, randoms])
+        if len(positions) > n:
+            positions = positions[:n]
+        return ensure_n_unique_points(positions, n)
+    else:
+        raise ValueError(f"Unknown customer type: {cust_type}")
+```

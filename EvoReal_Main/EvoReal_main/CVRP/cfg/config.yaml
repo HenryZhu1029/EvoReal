@@ -1,0 +1,59 @@
+defaults:
+  - _self_
+  - llm_client: openai
+
+hydra:
+  run:
+    dir: ./hydra_outputs/${problem.task_name}-${now:%Y-%m-%d_%H-%M-%S}
+  job:
+    chdir: False
+  output_subdir: null
+# Define Problem
+problem: 
+  problem_name: cvrp
+  obj_type: min
+  task_name: cvrpdata_generator_evo
+
+# The chosen algorithm
+model: pomo 
+
+max_iter: 10 # the number of iterations are recommended to be the multiple of 5 and no larger than 100 
+# Main tspdata_evo loop parameters
+pop_size: 10 # population size 
+init_pop_size: 25 # initial code population size  (not recommend for a number above 40 or below 5)
+num_batches: 5
+max_code_runs: 130
+mutation_rate: 0.5 # mutation rate for code population
+
+
+temperature: 1
+cuda_device_num: 0  #can be an interger 
+toleration: 3
+module_to_evo: "cvrp"
+# lehd specific params
+n_proc: 20
+num_training_problems: 10000
+# Prompts
+prompts: 
+
+  population_generator_prompt: |
+    ### Task Objective:
+    {problem_desc}
+
+
+    ### Function Description:
+    All generated new python code must follow this function signature as the first line of python function:
+    {func_desc}
+  
+    ### Function Signature:
+    {func_signature}
+  
+    ### Design Guidance:
+    - Design generation strategies that reflect spatial complexity, distributional realism, and diverse patterns across samples.
+    - Encourage variability across samples: avoid excessive reuse of the same generation logic or structure.
+
+    ### Reference Module:
+    {seed} 
+
+
+

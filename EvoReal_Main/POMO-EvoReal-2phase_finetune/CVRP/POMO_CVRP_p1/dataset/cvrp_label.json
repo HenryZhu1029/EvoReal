@@ -1,0 +1,502 @@
+{
+  "X-n1001-k43": {
+    "UB/opt": 72355.0,
+    "num_of_customers": 1000,
+    "normalized_label": 72.355
+  },
+  "X-n101-k25": {
+    "UB/opt": 27591.0,
+    "num_of_customers": 100,
+    "normalized_label": 27.591
+  },
+  "X-n106-k14": {
+    "UB/opt": 26362.0,
+    "num_of_customers": 105,
+    "normalized_label": 26.362
+  },
+  "X-n110-k13": {
+    "UB/opt": 14971.0,
+    "num_of_customers": 109,
+    "normalized_label": 14.971
+  },
+  "X-n115-k10": {
+    "UB/opt": 12747.0,
+    "num_of_customers": 114,
+    "normalized_label": 12.747
+  },
+  "X-n120-k6": {
+    "UB/opt": 13332.0,
+    "num_of_customers": 119,
+    "normalized_label": 13.332
+  },
+  "X-n125-k30": {
+    "UB/opt": 55539.0,
+    "num_of_customers": 124,
+    "normalized_label": 55.539
+  },
+  "X-n129-k18": {
+    "UB/opt": 28940.0,
+    "num_of_customers": 128,
+    "normalized_label": 28.94
+  },
+  "X-n134-k13": {
+    "UB/opt": 10916.0,
+    "num_of_customers": 133,
+    "normalized_label": 10.916
+  },
+  "X-n139-k10": {
+    "UB/opt": 13590.0,
+    "num_of_customers": 138,
+    "normalized_label": 13.59
+  },
+  "X-n143-k7": {
+    "UB/opt": 15700.0,
+    "num_of_customers": 142,
+    "normalized_label": 15.7
+  },
+  "X-n148-k46": {
+    "UB/opt": 43448.0,
+    "num_of_customers": 147,
+    "normalized_label": 43.448
+  },
+  "X-n153-k22": {
+    "UB/opt": 21220.0,
+    "num_of_customers": 152,
+    "normalized_label": 21.22
+  },
+  "X-n157-k13": {
+    "UB/opt": 16876.0,
+    "num_of_customers": 156,
+    "normalized_label": 16.876
+  },
+  "X-n162-k11": {
+    "UB/opt": 14138.0,
+    "num_of_customers": 161,
+    "normalized_label": 14.138
+  },
+  "X-n167-k10": {
+    "UB/opt": 20557.0,
+    "num_of_customers": 166,
+    "normalized_label": 20.557
+  },
+  "X-n172-k51": {
+    "UB/opt": 45607.0,
+    "num_of_customers": 171,
+    "normalized_label": 45.607
+  },
+  "X-n176-k26": {
+    "UB/opt": 47812.0,
+    "num_of_customers": 175,
+    "normalized_label": 47.812
+  },
+  "X-n181-k23": {
+    "UB/opt": 25569.0,
+    "num_of_customers": 180,
+    "normalized_label": 25.569
+  },
+  "X-n186-k15": {
+    "UB/opt": 24145.0,
+    "num_of_customers": 185,
+    "normalized_label": 24.145
+  },
+  "X-n190-k8": {
+    "UB/opt": 16980.0,
+    "num_of_customers": 189,
+    "normalized_label": 16.98
+  },
+  "X-n195-k51": {
+    "UB/opt": 44225.0,
+    "num_of_customers": 194,
+    "normalized_label": 44.225
+  },
+  "X-n200-k36": {
+    "UB/opt": 58578.0,
+    "num_of_customers": 199,
+    "normalized_label": 58.578
+  },
+  "X-n204-k19": {
+    "UB/opt": 19565.0,
+    "num_of_customers": 203,
+    "normalized_label": 19.565
+  },
+  "X-n209-k16": {
+    "UB/opt": 30656.0,
+    "num_of_customers": 208,
+    "normalized_label": 30.656
+  },
+  "X-n214-k11": {
+    "UB/opt": 10856.0,
+    "num_of_customers": 213,
+    "normalized_label": 10.856
+  },
+  "X-n219-k73": {
+    "UB/opt": 117595.0,
+    "num_of_customers": 218,
+    "normalized_label": 117.595
+  },
+  "X-n223-k34": {
+    "UB/opt": 40437.0,
+    "num_of_customers": 222,
+    "normalized_label": 40.437
+  },
+  "X-n228-k23": {
+    "UB/opt": 25742.0,
+    "num_of_customers": 227,
+    "normalized_label": 25.742
+  },
+  "X-n233-k16": {
+    "UB/opt": 19230.0,
+    "num_of_customers": 232,
+    "normalized_label": 19.23
+  },
+  "X-n237-k14": {
+    "UB/opt": 27042.0,
+    "num_of_customers": 236,
+    "normalized_label": 27.042
+  },
+  "X-n242-k48": {
+    "UB/opt": 82751.0,
+    "num_of_customers": 241,
+    "normalized_label": 82.751
+  },
+  "X-n247-k50": {
+    "UB/opt": 37274.0,
+    "num_of_customers": 246,
+    "normalized_label": 37.274
+  },
+  "X-n251-k28": {
+    "UB/opt": 38684.0,
+    "num_of_customers": 250,
+    "normalized_label": 38.684
+  },
+  "X-n256-k16": {
+    "UB/opt": 18839.0,
+    "num_of_customers": 255,
+    "normalized_label": 18.839
+  },
+  "X-n261-k13": {
+    "UB/opt": 26558.0,
+    "num_of_customers": 260,
+    "normalized_label": 26.558
+  },
+  "X-n266-k58": {
+    "UB/opt": 75478.0,
+    "num_of_customers": 265,
+    "normalized_label": 75.478
+  },
+  "X-n270-k35": {
+    "UB/opt": 35291.0,
+    "num_of_customers": 269,
+    "normalized_label": 35.291
+  },
+  "X-n275-k28": {
+    "UB/opt": 21245.0,
+    "num_of_customers": 274,
+    "normalized_label": 21.245
+  },
+  "X-n280-k17": {
+    "UB/opt": 33503.0,
+    "num_of_customers": 279,
+    "normalized_label": 33.503
+  },
+  "X-n284-k15": {
+    "UB/opt": 20226.0,
+    "num_of_customers": 283,
+    "normalized_label": 20.226
+  },
+  "X-n289-k60": {
+    "UB/opt": 95151.0,
+    "num_of_customers": 288,
+    "normalized_label": 95.151
+  },
+  "X-n294-k50": {
+    "UB/opt": 47161.0,
+    "num_of_customers": 293,
+    "normalized_label": 47.161
+  },
+  "X-n298-k31": {
+    "UB/opt": 34231.0,
+    "num_of_customers": 297,
+    "normalized_label": 34.231
+  },
+  "X-n303-k21": {
+    "UB/opt": 21736.0,
+    "num_of_customers": 302,
+    "normalized_label": 21.736
+  },
+  "X-n308-k13": {
+    "UB/opt": 25859.0,
+    "num_of_customers": 307,
+    "normalized_label": 25.859
+  },
+  "X-n313-k71": {
+    "UB/opt": 94043.0,
+    "num_of_customers": 312,
+    "normalized_label": 94.043
+  },
+  "X-n317-k53": {
+    "UB/opt": 78355.0,
+    "num_of_customers": 316,
+    "normalized_label": 78.355
+  },
+  "X-n322-k28": {
+    "UB/opt": 29834.0,
+    "num_of_customers": 321,
+    "normalized_label": 29.834
+  },
+  "X-n327-k20": {
+    "UB/opt": 27532.0,
+    "num_of_customers": 326,
+    "normalized_label": 27.532
+  },
+  "X-n331-k15": {
+    "UB/opt": 31102.0,
+    "num_of_customers": 330,
+    "normalized_label": 31.102
+  },
+  "X-n336-k84": {
+    "UB/opt": 139111.0,
+    "num_of_customers": 335,
+    "normalized_label": 139.111
+  },
+  "X-n344-k43": {
+    "UB/opt": 42050.0,
+    "num_of_customers": 343,
+    "normalized_label": 42.05
+  },
+  "X-n351-k40": {
+    "UB/opt": 25896.0,
+    "num_of_customers": 350,
+    "normalized_label": 25.896
+  },
+  "X-n359-k29": {
+    "UB/opt": 51505.0,
+    "num_of_customers": 358,
+    "normalized_label": 51.505
+  },
+  "X-n367-k17": {
+    "UB/opt": 22814.0,
+    "num_of_customers": 366,
+    "normalized_label": 22.814
+  },
+  "X-n376-k94": {
+    "UB/opt": 147713.0,
+    "num_of_customers": 375,
+    "normalized_label": 147.713
+  },
+  "X-n384-k52": {
+    "UB/opt": 65940.0,
+    "num_of_customers": 383,
+    "normalized_label": 65.94
+  },
+  "X-n393-k38": {
+    "UB/opt": 38260.0,
+    "num_of_customers": 392,
+    "normalized_label": 38.26
+  },
+  "X-n401-k29": {
+    "UB/opt": 66154.0,
+    "num_of_customers": 400,
+    "normalized_label": 66.154
+  },
+  "X-n411-k19": {
+    "UB/opt": 19712.0,
+    "num_of_customers": 410,
+    "normalized_label": 19.712
+  },
+  "X-n420-k130": {
+    "UB/opt": 107798.0,
+    "num_of_customers": 419,
+    "normalized_label": 107.798
+  },
+  "X-n429-k61": {
+    "UB/opt": 65449.0,
+    "num_of_customers": 428,
+    "normalized_label": 65.449
+  },
+  "X-n439-k37": {
+    "UB/opt": 36391.0,
+    "num_of_customers": 438,
+    "normalized_label": 36.391
+  },
+  "X-n449-k29": {
+    "UB/opt": 55233.0,
+    "num_of_customers": 448,
+    "normalized_label": 55.233
+  },
+  "X-n459-k26": {
+    "UB/opt": 24139.0,
+    "num_of_customers": 458,
+    "normalized_label": 24.139
+  },
+  "X-n469-k138": {
+    "UB/opt": 221824.0,
+    "num_of_customers": 468,
+    "normalized_label": 221.824
+  },
+  "X-n480-k70": {
+    "UB/opt": 89449.0,
+    "num_of_customers": 479,
+    "normalized_label": 89.449
+  },
+  "X-n491-k59": {
+    "UB/opt": 66483.0,
+    "num_of_customers": 490,
+    "normalized_label": 66.483
+  },
+  "X-n502-k39": {
+    "UB/opt": 69226.0,
+    "num_of_customers": 501,
+    "normalized_label": 69.226
+  },
+  "X-n513-k21": {
+    "UB/opt": 24201.0,
+    "num_of_customers": 512,
+    "normalized_label": 24.201
+  },
+  "X-n524-k153": {
+    "UB/opt": 154593.0,
+    "num_of_customers": 523,
+    "normalized_label": 154.593
+  },
+  "X-n536-k96": {
+    "UB/opt": 94846.0,
+    "num_of_customers": 535,
+    "normalized_label": 94.846
+  },
+  "X-n548-k50": {
+    "UB/opt": 86700.0,
+    "num_of_customers": 547,
+    "normalized_label": 86.7
+  },
+  "X-n561-k42": {
+    "UB/opt": 42717.0,
+    "num_of_customers": 560,
+    "normalized_label": 42.717
+  },
+  "X-n573-k30": {
+    "UB/opt": 50673.0,
+    "num_of_customers": 572,
+    "normalized_label": 50.673
+  },
+  "X-n586-k159": {
+    "UB/opt": 190316.0,
+    "num_of_customers": 585,
+    "normalized_label": 190.316
+  },
+  "X-n599-k92": {
+    "UB/opt": 108451.0,
+    "num_of_customers": 598,
+    "normalized_label": 108.451
+  },
+  "X-n613-k62": {
+    "UB/opt": 59535.0,
+    "num_of_customers": 612,
+    "normalized_label": 59.535
+  },
+  "X-n627-k43": {
+    "UB/opt": 62164.0,
+    "num_of_customers": 626,
+    "normalized_label": 62.164
+  },
+  "X-n641-k35": {
+    "UB/opt": 63684.0,
+    "num_of_customers": 640,
+    "normalized_label": 63.684
+  },
+  "X-n655-k131": {
+    "UB/opt": 106780.0,
+    "num_of_customers": 654,
+    "normalized_label": 106.78
+  },
+  "X-n670-k130": {
+    "UB/opt": 146332.0,
+    "num_of_customers": 669,
+    "normalized_label": 146.332
+  },
+  "X-n685-k75": {
+    "UB/opt": 68205.0,
+    "num_of_customers": 684,
+    "normalized_label": 68.205
+  },
+  "X-n701-k44": {
+    "UB/opt": 81923.0,
+    "num_of_customers": 700,
+    "normalized_label": 81.923
+  },
+  "X-n716-k35": {
+    "UB/opt": 43373.0,
+    "num_of_customers": 715,
+    "normalized_label": 43.373
+  },
+  "X-n733-k159": {
+    "UB/opt": 136187.0,
+    "num_of_customers": 732,
+    "normalized_label": 136.187
+  },
+  "X-n749-k98": {
+    "UB/opt": 77269.0,
+    "num_of_customers": 748,
+    "normalized_label": 77.269
+  },
+  "X-n766-k71": {
+    "UB/opt": 114417.0,
+    "num_of_customers": 765,
+    "normalized_label": 114.417
+  },
+  "X-n783-k48": {
+    "UB/opt": 72386.0,
+    "num_of_customers": 782,
+    "normalized_label": 72.386
+  },
+  "X-n801-k40": {
+    "UB/opt": 73311.0,
+    "num_of_customers": 800,
+    "normalized_label": 73.311
+  },
+  "X-n819-k171": {
+    "UB/opt": 158121.0,
+    "num_of_customers": 818,
+    "normalized_label": 158.121
+  },
+  "X-n837-k142": {
+    "UB/opt": 193737.0,
+    "num_of_customers": 836,
+    "normalized_label": 193.737
+  },
+  "X-n856-k95": {
+    "UB/opt": 88965.0,
+    "num_of_customers": 855,
+    "normalized_label": 88.965
+  },
+  "X-n876-k59": {
+    "UB/opt": 99299.0,
+    "num_of_customers": 875,
+    "normalized_label": 99.299
+  },
+  "X-n895-k37": {
+    "UB/opt": 53860.0,
+    "num_of_customers": 894,
+    "normalized_label": 53.86
+  },
+  "X-n916-k207": {
+    "UB/opt": 329179.0,
+    "num_of_customers": 915,
+    "normalized_label": 329.179
+  },
+  "X-n936-k151": {
+    "UB/opt": 132715.0,
+    "num_of_customers": 935,
+    "normalized_label": 132.715
+  },
+  "X-n957-k87": {
+    "UB/opt": 85465.0,
+    "num_of_customers": 956,
+    "normalized_label": 85.465
+  },
+  "X-n979-k58": {
+    "UB/opt": 118976.0,
+    "num_of_customers": 978,
+    "normalized_label": 118.976
+  }
+}

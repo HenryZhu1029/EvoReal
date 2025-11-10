@@ -1,0 +1,1 @@
+def generate_customer_positions(n, cust_type=None):

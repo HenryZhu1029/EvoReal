@@ -1,0 +1,1 @@
+Download the checkpoints from its [official repository](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD/TSP) and place them in the corresponding directories. For example, place `checkpoint-150.pt` for TSP at `\LEHD-EvoReal\TSP\LEHD_TSP_p1\TSP\result\20230509_153705_train`.

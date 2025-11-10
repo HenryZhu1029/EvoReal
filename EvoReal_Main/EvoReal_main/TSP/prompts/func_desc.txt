@@ -1,0 +1,4 @@
+The function must take two arguments: (batch_size, problem_size).
+-It must returns a batch of synthetic TSP problems as a torch.Tensor of shape (batch_size, problem_size, 2), dtype=torch.float32. Each individual problem must be well-structured and exactly of size (problem_size, 2) to ensure safe stacking. The parameter problem_size defines the number of nodes in each generated TSP instance.
+- All generated problems for the stacking in the final return must have exactly "problem_size" 2D coordinates. Use torch.randperm to truncate or torch.cat + torch.rand() to pad if needed.
+- Output must be stackable via torch.stack without shape errors.

@@ -1,0 +1,8 @@
+Your design for the code should align with the design guidance below:
+{external_guide}
+
+seed generator:
+{seed_func}
+
+This module(python function) illustrates how to call PyTorch APIs (e.g., `torch.rand`, `torch.cat`, `torch.randperm`, `torch.linspace`) in a safe and modular way. 
+You may refer to the trivial module above for inspiration but you should explore more logic, generation strategies, or substructures compositions to create new `{func_name}`. Output code only and enclose your code with Python code block: ```python ... ```
