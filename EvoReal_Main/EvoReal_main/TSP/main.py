@@ -28,6 +28,8 @@ def main(cfg):
     ROOT_DIR = Path.cwd()
     best_code_dir = ROOT_DIR / "best_code"
     best_code_dir.mkdir(parents=True, exist_ok=True)
+    hydra_dir = ROOT_DIR / "hydra_outputs"
+    hydra_dir.mkdir(parents=True, exist_ok=True)
 
     logging.info(f"[Hydra Workspace] Working Directory: {ROOT_DIR}")
     logging.info(f"[Project Root] ROOT_DIR = {ROOT_DIR}")
