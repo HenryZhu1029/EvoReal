@@ -29,11 +29,11 @@ For LEHD: https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD
 
 and place them in the following folders:
 
-# For TSP
+### For TSP
 /EvoReal_main/TSP/POMO/result/saved_tsp100_model
 /EvoReal_main/TSP/LEHD/result/20230509_153705_train
 
-# For CVRP
+### For CVRP
 /EvoReal_main/CVRP/POMO/result/pretrained_cvrp100_model
 /EvoReal_main/CVRP/LEHD/result/20230817_235537_train
 
