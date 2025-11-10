@@ -29,11 +29,11 @@ For LEHD: https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD
 
 and place them in the following folders:
 
-# For TSP
+### For TSP
 /EvoReal_main/TSP/POMO/result/saved_tsp100_model
 /EvoReal_main/TSP/LEHD/result/20230509_153705_train
 
-# For CVRP
+### For CVRP
 /EvoReal_main/CVRP/POMO/result/pretrained_cvrp100_model
 /EvoReal_main/CVRP/LEHD/result/20230817_235537_train
 
@@ -43,7 +43,7 @@ For installing *HGS* solver, use `pip install hygese` in your local environment.
 For installing *CONCORDE* solver, refer to https://blog.csdn.net/u011412840/article/details/122276492 or https://www.researchgate.net/publication/324485167_Concorde_solver_installation_and_use
 
 
-# Running EvoReal
+## Running EvoReal
 You can export your key using any of the following methods or directly copy and paste it in the "openai.yaml" in the '/cfg/llm_client' of the corresponding problem folder (e.g. /EvoReal_main/TSP/cfg/llm_client/openai.yaml). Use the command below in the bash to set your OpenAI API key:
 ```bash
 export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
