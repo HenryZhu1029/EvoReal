@@ -159,8 +159,17 @@ One of the training dataset cannot be uploaded to github due to the size limit. 
 ## Copyrights 
 The code can only be used for non-commercial purposes. Please contact the authors if you want to use this code for business matters.
 If this repository is helpful for your research, please cite our paper:
-
-
+```
+@misc{zhu2025bridgingsyntheticrealrouting,
+      title={Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation}, 
+      author={Jianghan Zhu and Yaoxin Wu and Zhuoyi Lin and Zhengyuan Zhang and Haiyan Yin and Zhiguang Cao and Senthilnath Jayavelu and Xiaoli Li},
+      year={2025},
+      eprint={2511.10233},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2511.10233}, 
+}
+```
 
 
 
